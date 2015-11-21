@@ -1,0 +1,190 @@
+html, body
+{
+	margin: 0px;
+	font-family: "roboto", sans-serif;
+	background: url(../img/backgroundimage1.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+}
+
+/* Parte superior de la pagina (cabecera). */
+
+.cabecera
+{
+	background-color: #a1a61c;
+	font-size: 15pt;
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	top: 0%;
+	padding-right: 30px 20px;
+}
+
+.boton_hipodromo
+{
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 25px 20px;
+
+}
+
+.boton_taquilla
+{
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 25px 20px;
+
+}
+.boton_ejemplar
+{
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+.boton_stud
+{
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+.boton_restaurante
+{
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+.boton_carrera
+{
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+.boton_registrar
+{
+	color: white;
+	float: right;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+.boton_ingresar
+{
+	color: white;
+	float: right;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+
+/* Parte del contenido de la pagina (campo_area) */
+
+
+.campo_area
+{
+	margin-top: 60px;
+	margin-bottom: 50px;
+	padding: 30px 30px;
+}
+
+
+.area_1
+{
+	background-color: white;
+	float: left;
+	text-align: center;
+	height: 80%;
+	width: 30%;
+
+}
+
+.area_2
+{
+	float: left;
+	text-align: center;
+	padding: 0px 30px;
+}
+
+.area_2_1
+{
+	background-color: white;
+	height: 35%;
+	width: 420%;
+}
+
+.area_2_2
+{
+	background-color: white;
+	height: 35%;
+	width: 420%;
+}
+
+.area_3
+{
+	background-color: white;
+	float: right;
+	text-align: center;
+	height: 80%;
+	width: 30%;
+}
+
+
+
+
+/* Parte inferior */
+
+.informacion
+{
+	background-color: #a1a61c;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	height: 50px;
+	padding-right: 30px 20px;
+	text-align: center;
+}
+
+
+.info_des
+{
+	color: white;
+	text-decoration: none;
+	padding-right: 20px;
+
+}
+
+.info_con
+{
+	color: white;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
