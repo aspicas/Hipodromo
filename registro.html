@@ -1,0 +1,74 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Hipodromo la Rinconada</title>
+	<link rel="stylesheet" type="text/css" href="css/registro.css">
+	<script type="text/javascript">
+function validar(){
+  var op1 = document.getElementById("info1").value;
+  var op2 = document.getElementById("info2").value;
+	var op3 = document.getElementById("info3").value;
+	var op4 = document.getElementById("info4").value;
+       var op5 = document.getElementById("info5").value;
+            var op6 = document.getElementById("info6").value;
+            var op7 = document.getElementById("info7").value;
+            var op8 = document.getElementById("info8").value;
+            var op9 = document.getElementById("info9").value;
+           
+	if  ((op1 == "") ||(op2 == "") || (op3 == "") || )(op4 == "") || (op5 == "") || (op6 == "") || (op7 == "") || (op8 == "") || (op9 == "") ||){
+		window.alert("Algun campo esta vacio");
+		 } else {
+            window.alert("Se ha registrado exitosamente.");
+            window.open("../registro.html","_self");
+            }
+}
+</script>
+</head>
+<body>
+	<div class="cabecera">
+		<a href="", class="boton_hipodromo">Hipodromo</a>
+		
+	</div>
+
+	<div class="campo_area">
+		<div class="area_1">
+		<form action="">	
+			<h1>Registrar</h1>
+		
+		    <label id="c1">Nombre:</label>
+			<input title="Se requiere un nombre " type="text" id="info1" placeholder="" name="nombre" required/>
+			<label id="c2">Apellido:</label>
+			<input title="se requiere el apellido" input id="info2"type="text" placeholder="" name="Apellido" required/>
+			<label id="c3">Cedula:</label>
+			<input id="info3" maxlength="7" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required/>
+			<label id"c4">Fecha de nacimiento :</label>
+			<input type="date"  placeholder="" name="" id="info4">
+			<label id="c5">Contrasena:</label>
+			<input type="password" id="info5"placeholder="" name="cotrasena">
+			<label id="c6">Repetir Contrasena:</label>
+			<input id="info6" type="password" placeholder="" name="cotrasena">
+			<label id="c7">Correo electronico</label>
+			<input type="email" id="info7"placeholder="" name="email" required/>
+			<label id="c8">Descripcion:</label>
+			<textarea id="c9">Descripcion:</textarea>
+									
+			
+			<input class="botonregistar" type="submit"value="registrar">
+			
+     		</form>
+     		<div id = "border2">
+<a id = "Registrarse"  onclick="validar()" > Registrarse </a>
+</div>
+	</div>
+
+
+	<footer class="informacion">
+		<a href="", class="info_des">Desarrolladores</a>
+		<a href="", class="info_con">Contactenos</a>
+	</footer>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+html, body
+{
+	margin: 0px;
+	font-family: "roboto", sans-serif;
+	background: url(../img/backgroundimage1.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+}
+
+/* Parte superior de la pagina (cabecera). */
+
+
+.cabecera
+{
+	background-color: #a1a61c;
+	font-size: 15pt;
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	top: 0%;
+	padding-right: 30px 20px;
+}
+
+.boton_hipodromo
+{
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 25px 20px;
+
+}
+
+
+
+
+
+
+
+/* Parte del contenido de la pagina (campo_area) */
+
+
+.campo_area
+{
+	margin-top: 100px;
+	margin-bottom: 60px;
+	padding: 60px 60px;
+}
+
+
+
+
+
+
+
+/* Parte inferior */
+
+.informacion
+{
+	background-color: #a1a61c;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	height: 50px;
+	padding-right: 30px 20px;
+	text-align: center;
+}
+
+
+.info_des
+{
+	color: white;
+	text-decoration: none;
+	padding-right: 20px;
+
+}
+
+.info_con
+{
+	color: white;
+	text-decoration: none;
+	padding-right: 20px;
+}
+form {
+	margin: auto;
+	width: 70%;
+	max-width: 400px;
+	background: #f3f3f3 ;
+	padding: 30px 30px;
+	border: 5px ;
+	border-radius: 7px;
+	opacity: 1;
+}
+ h1{
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ 	color:black;
+ }
+
+textarea{
+	margin-bottom: 20px;
+	min-height: 100px;
+	max-height: 800%;
+	max-width: 100%;
+}
+ input{
+ 	display:block;
+ 	padding: 0.1px;
+ 	width:90%;
+ 	margin: 0.5px ;
+ 	font-size: 20px;
+ 	margin-bottom: 20px;
+  
+ }
+label{
+	front-size:10px;
+	display: block;
+	width: 100%;
+	
+  
+}
+
+ input[type="submit"]{
+ 	background: #a1a61c;
+ 	border: 0;
+ 	color:white;
+ 	width:50%;
+ 	cursor: pointer;
+ 	border-radius: 30px;
+ 	margin-bottom: 0;
+
+ }
+ @media (max-width: 768px){
+ 	for{
+ 		width:75%;
+ 	}
+ }
+@media (max-width: 480px){
+ 	for{
+ 		width:95%;
+ 	}
+ }
+.botonregistrar{
+	display: inline;
+}
