@@ -171,20 +171,18 @@ html, body
 	padding-right: 20px;
 }
 
+.white
+{
+	color: white;
+}
 
+.space
+{
+	margin-top: 150px;
+	background-color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.center
+{
+	text-align: center;
+}

@@ -2,18 +2,33 @@
 <html>
 <head>
 	<title>Hipodromo la Rinconada</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" width="device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index_style.css">
 </head>
 <body>
 	<div class="cabecera">
-		<a href="", class="boton_hipodromo">Hipodromo</a>
-		<a href="", class="boton_taquilla">Taquilla</a>
-		<a href="", class="boton_ejemplar">Ejemplares</a>
-		<a href="", class="boton_stud">Studs</a>
-		<a href="", class="boton_restaurante">Restaurantes</a>
-		<a href="", class="boton_carrera">Carreras</a>
-		<a href="", class="boton_registrar">Registrarse</a>
-		<a href="", class="boton_ingresar">Ingresar</a>
+		<ul class="nav nav-tabs">
+			<li><a class="white" href="index.html">Hipodromo</a></li>
+			<li><a class="white" href="#">Taquilla</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ejemplar <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="Eejemplar.html">Registrar</a></li>
+					<li><a href="#">Consultar</a></li>
+					<li><a href="#">Modificar</a></li>
+					<li><a href="#">Borrar</a></li>
+				</ul>
+			</li>
+			<li><a class="white" href="#">Studs</a></li>
+			<li><a class="white" href="#">Restaurantes</a></li>
+			<li><a class="white" href="#">Carreras</a></li>
+			<li><a class="white" href="#">Registrarse</a></li>
+			<li><a class="white" href="#">Ingresar</a></li>
+		</ul>		
 	</div>
 
 	<div class="campo_area">
@@ -39,9 +54,8 @@
 		<a href="", class="info_des">Desarrolladores</a>
 		<a href="", class="info_con">Contactenos</a>
 	</footer>
-
-
-
-
+	
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>	
 </body>
 </html>

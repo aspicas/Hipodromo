@@ -17,9 +17,9 @@ function Connect()
 function Disconnect()
 {
 	global $conn;
-	oci_close($conn);	
+	oci_close($conn);
 }
-
+/* include 'oracledb.php';
 //Funciona con insert,delete,update falta select
 function Query($string)
 {
@@ -56,5 +56,5 @@ if(isset($_POST['query']))
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
 	}	
-}
+}*/
 ?>
