@@ -1,0 +1,1 @@
+Query("insert into rous values (SQ_ROUS_codigo.nextval,(select max(usua_codigo) from usuario),(select rol_codigo from rol where rol_nombre='basico'))");

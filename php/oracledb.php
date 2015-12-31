@@ -5,7 +5,7 @@ $connected = TRUE;
 function Connect()
 {	
 	global $connected, $conn;
-	$conn = oci_connect('hipodromo', 'hipodromo', '192.168.25.128/orcl');
+	$conn = oci_connect('hipodromo', 'hipodromo', '192.168.25.135/orcl');//'192.168.25.128/orcl');
 	if (!$conn) {
 		$m = oci_error();
 	   	echo $m['message'], "\n";
@@ -20,7 +20,7 @@ function Disconnect()
 	oci_close($conn);
 }
 /* include 'oracledb.php';
-//Funciona con insert,delete,update falta select
+//Funciona con insert,delete,update falta select*/
 function Query($string)
 {
 	global $conn;	
@@ -41,20 +41,23 @@ function Select($string)
 }
 
 if(isset($_POST['query']))
-{		
+{/*
 	try {
 		Connect();
 		if ($connected == TRUE) {
 			$name = $_POST["name"];
 			$lastName = $_POST["lastname"];
-			Query("insert into usuario values (SQ_USUA_codigo.NEXTVAL,'".$name."','".$lastName."')");
+			Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE) values (SQ_USUA_codigo.NEXTVAL,'".$name."','".$lastName."')");
 			//Query("update usuario set nombre='".$lastName."' where nombre='".$name."'");
 			//Query("delete from usuario where nombre='".$name."'");
-			Select("select * from usuario");
+			//Select("select * from usuario");			
 			Disconnect();
 		}	
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
-	}	
-}*/
+	}*/
+	$opcion = $_POST["opcion"];
+	echo "<p>'".$opcion."'</p>";
+	echo "<p>Hola mundo</p>";
+}
 ?>

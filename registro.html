@@ -2,73 +2,110 @@
 <html>
 <head>
 	<title>Hipodromo la Rinconada</title>
-	<link rel="stylesheet" type="text/css" href="css/registro.css">
-	<script type="text/javascript">
-function validar(){
-  var op1 = document.getElementById("info1").value;
-  var op2 = document.getElementById("info2").value;
-	var op3 = document.getElementById("info3").value;
-	var op4 = document.getElementById("info4").value;
-       var op5 = document.getElementById("info5").value;
-            var op6 = document.getElementById("info6").value;
-            var op7 = document.getElementById("info7").value;
-            var op8 = document.getElementById("info8").value;
-            var op9 = document.getElementById("info9").value;
-           
-	if  ((op1 == "") ||(op2 == "") || (op3 == "") || )(op4 == "") || (op5 == "") || (op6 == "") || (op7 == "") || (op8 == "") || (op9 == "") ||){
-		window.alert("Algun campo esta vacio");
-		 } else {
-            window.alert("Se ha registrado exitosamente.");
-            window.open("../registro.html","_self");
-            }
-}
-</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" width="device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/registro.css">	
 </head>
 <body>
 	<div class="cabecera">
-		<a href="", class="boton_hipodromo">Hipodromo</a>
+		<a href="index.html", class="boton_hipodromo">Hipodromo</a>
 		
 	</div>
 
 	<div class="campo_area">
 		<div class="area_1">
-		<form action="">	
-			<h1>Registrar</h1>
-		
-		    <label id="c1">Nombre:</label>
-			<input title="Se requiere un nombre " type="text" id="info1" placeholder="" name="nombre" required/>
-			<label id="c2">Apellido:</label>
-			<input title="se requiere el apellido" input id="info2"type="text" placeholder="" name="Apellido" required/>
-			<label id="c3">Cedula:</label>
-			<input id="info3" maxlength="7" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required/>
-			<label id"c4">Fecha de nacimiento :</label>
-			<input type="date"  placeholder="" name="" id="info4">
-			<label id="c5">Contrasena:</label>
-			<input type="password" id="info5"placeholder="" name="cotrasena">
-			<label id="c6">Repetir Contrasena:</label>
-			<input id="info6" type="password" placeholder="" name="cotrasena">
-			<label id="c7">Correo electronico</label>
-			<input type="email" id="info7"placeholder="" name="email" required/>
-			<label id="c8">Descripcion:</label>
-			<textarea id="c9">Descripcion:</textarea>
-									
-			
-			<input class="botonregistar" type="submit"value="registrar">
-			
-     		</form>
-     		<div id = "border2">
-<a id = "Registrarse"  onclick="validar()" > Registrarse </a>
-</div>
+			<form method="post" action="php/registrarUsuario.php">	
+				<h1>Registrar</h1>
+				<label> Nombre de Usuario</label>
+				<input type="text" name="usuario" required>
+			    <label id="c1">Nombre:</label>
+				<input title="Se requiere un nombre " type="text" placeholder="" name="nombre" required/>
+				<label> Apellido:</label>
+				<input title="se requiere el apellido" type="text" placeholder="" name="apellido" required/>
+				<label> Contrasena:</label>
+				<input type="password" placeholder="" name="clave" required>			
+				<label>Registrar como</label>
+				<select name="opcion" id="opcion" required>
+					<option value="empty"></option>
+					<option value="propietario">Propietario</option>
+					<option value="entrenador">Entrenador</option>
+					<option value="veterinario">Veterinario</option>
+					<option value="jinete">Jinete</option>
+					<option value="invitado">Invitado</option>
+				</select>
+				
+				<p></p>
+				
+				<label class="prop jine">Cedula:</label>			
+				<input class="prop jine req" maxlength="8" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" name="ci" required/>
+				<label class="prop jine">Fecha de nacimiento :</label>
+				<input class="prop jine req" type="date"  placeholder="" name="fecha" required>	
+				<label class="prop">Correo electronico</label>
+				<input class="prop req" type="email" placeholder="" name="email" required/>
+				<label class="jine">Altura</label>
+				<input class="jine req" type="number" placeholder="metros" min="5" name="altura" required/>
+				<label class="jine checkbox-inline">
+					<input type="checkbox" name="profesional" value="true" id="profesional"> Profesional
+				</label>
+				<label class="invi">Tipo</label>
+				<select class="invi req" name="tipo" id="tipo" required>
+					<option value="empty"></option>
+					<option value="artista">Artista</option>
+					<option value="deportista">Deportista</option>
+					<option value="opinion">Opinion</option>				
+				</select>
+				<p class="invi"></p>
+				<input type="submit" value="Registrar" name="registrar">			
+	     	</form>
+		</div>
 	</div>
-
 
 	<footer class="informacion">
 		<a href="", class="info_des">Desarrolladores</a>
 		<a href="", class="info_con">Contactenos</a>
 	</footer>
 
-
-
-
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".prop").hide();
+			$(".jine").hide();
+			$(".invi").hide();
+			$(".req").removeAttr("required");
+			$('#opcion').on('change', function() {
+			  if (this.value == "propietario") {			  	
+			  	$(".invi").hide();
+			  	$(".jine").hide();
+			  	$(".req").removeAttr("required");
+			  	$(".prop").show();
+			  	$(".prop").attr("required", "required");
+			  }
+			  else if (this.value == "jinete"){
+			  	$(".prop").hide();
+			  	$(".invi").hide();
+			  	$(".req").removeAttr("required");
+			  	$(".jine").show();
+			  	$(".jine").attr("required", "required");
+			  }
+			  else if (this.value == "invitado") {
+			  	$(".prop").hide();
+				$(".jine").hide();
+				$(".invi").show();
+				$(".req").removeAttr("required");
+				$(".invi").attr("required", "required");
+			  }
+			  else {
+			  	$(".prop").hide();
+				$(".jine").hide();
+				$(".invi").hide();
+				$(".req").removeAttr("required");
+			  };			  
+			});
+		});
+	</script>
 </body>
 </html>
