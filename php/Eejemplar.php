@@ -2,14 +2,14 @@
 include 'oracledb.php';
 
 if (isset($_POST['registrar'])) {
-	try {
+	/*try {
 		Connect();
 		if ($connected == TRUE) {
-			$username = $_POST["usuario"];
-			$name = $_POST["nombre"];
+			*/$username = $_POST["usuario"];
+			/*$name = $_POST["nombre"];
 			$lName = $_POST["apellido"];
-			$pass = $_POST["clave"];
-			$opcion = $_POST["opcion"];
+			*/$pass = $_POST["clave"];
+			/*$opcion = $_POST["opcion"];
 			$ci = $_POST["ci"];
 			$date = $_POST["fecha"];
 			$email = $_POST["email"];
@@ -30,11 +30,11 @@ if (isset($_POST['registrar'])) {
 				Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_VETE) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(VETE_codigo) from veterinario))");
 			}
 			elseif ($opcion == "jinete" && $prof == 1) {
-				Query("insert into jinete values (SQ_JINE_codigo.nextval,'".$name."','".$lName."',TO_DATE('".$date."','yyyy-mm-dd'),'".$ci."','".$hight."','true')");
+				Query("insert into jinete values (SQ_JINE_codigo.nextval,'".$name."','".$lName."',TO_DATE('".$date."','yyyy-mm-dd'),'".$ci."','".$hight."',true)");
 				Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_JINE) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(jine_codigo) from jinete))");
 			}
 			elseif ($opcion == "jinete" && $prof != 1) {
-				Query("insert into jinete values (SQ_JINE_codigo.nextval,'".$name."','".$lName."',TO_DATE('".$date."','yyyy-mm-dd'),'".$ci."','".$hight."','false')");
+				Query("insert into jinete values (SQ_JINE_codigo.nextval,'".$name."','".$lName."',TO_DATE('".$date."','yyyy-mm-dd'),'".$ci."','".$hight."',false)");
 				Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_JINE) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(jine_codigo) from jinete))");
 			}
 			elseif ($opcion == "invitado") {
@@ -42,20 +42,17 @@ if (isset($_POST['registrar'])) {
 				Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_INVI) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(invi_codigo) from invitado))");
 			}
 			
-			Query("insert into rous values (SQ_ROUS_codigo.nextval,(select max(usua_codigo) from usuario),(select rol_codigo from rol where ROL_nombre='basico'))");
+			Query("insert into rous values (SQ_ROUS_codigo.nextval,(select max(usua_codigo) from usuario),2)");
 			
 			Disconnect();
-			echo "<script type=\"text/javascript\">
-					alert(\"Se ha registrado exitosamente\");
-					window.location.href=\"../registro.html\"
-				</script>";
 		}
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
 	}/*/	
 	Connect();
 	//Query("insert into veterinario values (SQ_VETE_codigo.nextval,'".$name."','".$lName."')");
-	//Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_VETE) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(VETE_codigo) from veterinario))");	
+	//Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_VETE) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(VETE_codigo) from veterinario))");
+	Query("insert into rous values (SQ_ROUS_codigo.nextval,(select max(usua_codigo) from usuario),4)");
 	echo "<p>Paso1</p>";
 	Disconnect();//*/	
 }
