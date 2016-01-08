@@ -13,7 +13,7 @@ drop SEQUENCE SQ_CAAP_codigo;
 drop SEQUENCE SQ_CAME_codigo;
 drop SEQUENCE SQ_STUD_codigo;
 drop SEQUENCE SQ_APUE_codigo;
-drop SEQUENCE SQ_ROL_codigo;
+drop SEQUENCE SQ_ROL_codigo 
 drop SEQUENCE SQ_ENTR_codigo;
 drop SEQUENCE SQ_POST_codigo;
 drop SEQUENCE SQ_TELE_codigo;

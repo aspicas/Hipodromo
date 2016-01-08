@@ -10,9 +10,20 @@
 </head>
 <body>
 	<form method="post" action="php/oracledb.php">
-		Name: <input type="text" name="name" placeholder="Name"><br>
-		Last Name: <input type="text" name="lastname" placeholder="Last Name"><br>
-		<input type="submit" value="click" name="query">	
+		<!--Name: <input type="text" name="name" placeholder="Name"><br>-->
+		<!--Last Name: <input type="text" name="lastname" placeholder="Last Name"><br>-->
+		<div class="form-group">
+			<label for="sexo" class="col-sm-3 control-label">Sexo</label>
+			<div class="col-sm-9">
+				<label class="radio-inline">
+					<input type="radio" name="sexo" value="macho" id="macho" required> Macho							
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="sexo" value="hembra" id="hembra" required> Hembra
+				</label>					
+			</div>
+		</div>
+		<input type="submit" value="click" name="query">
 	</form>
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>	
