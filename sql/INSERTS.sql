@@ -1,26 +1,3 @@
-Chequear: Los Studs no parecen ser lo que aqui se escribio.
-Santiago tiene un ejemplo de como deben ser los inserts de Lugar, hay algunos, pero podrian haber mas.
-Santiago tiene un ejemplo de como deben ser los inserts de propietario. Hay 2 por referencia. Deben haber mas.
-Dayana tiene un ejemplo de como deben ser los inserts de Jinete. Hay 2 por referencia.
-La tabla taquilla debe tener un FK de Lugar o algo que las diferencia. Porque si no, no se ve la diferencia entre las taquillas, mas que el ID, y por ahi como las van a diferenciar?
-Hay que subir la cantidad de varhar de la descripcion de enfermedad.
-En Caballeriza ya se puede poner nombre del veterinario y entrenador para que busque la FK
-Faltan Inserts de Traqueo. Ya Dayi sabe lo que tiene que arreglar.
-Los inserts de Usuario deberia tener campos en null. O es jinete, o es propieario o etc. Ya se le dijo a Dayi.
-Las foraneas de la tabla ROUS deben tener los nombres de los roles y de los usuarios.
-Hay que poner los nombres de los lugares en la consulta de los inserts de HARA
-Hay que poner los nombres de los veterinarios y entrenadores en la consulta de los inserts de CABALLERIZA
-Hay que poner los nombres de las caballerizas en la consulta de los inserts de PUESTO
-Hay que chequear el formato de fecha de EJEMPLAR
-Todos los ejemplares son masculinos?
-Todas las razas son: raza?
-Hay que poner los nombres de los padres para el ejemplar, si no tiene padres va a null en cualquiera de los dos casos.
-Hay que poner los nombres de las HARAS y PUESTO en los inserts de EJEMPLAR.
-Los formatos de fecha de los isnerts de HORA estan mal y en todos falta el valor del ultimo campo.
-Las mismas enfermedades que hay en ENCA tienes que estar en ENVE.
-Los inserts de piso estan mal, porque la consulta devolveria toda la tabla y los nombres de las areas tienen que coincidir con los que estan en los inserts de area.
-
-
 
 //INSERTS DE RESTAURANTE
 INSERT INTO RESTAURANTE VALUES (SQ_REST_codigo.nextval,'Alamo');
