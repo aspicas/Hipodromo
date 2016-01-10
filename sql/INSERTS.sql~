@@ -219,28 +219,28 @@ INSERT INTO STUD VALUES (SQ_STUD_codigo.nextval,'Drew',to_date('25/12/2003','dd/
 INSERT INTO STUD VALUES (SQ_STUD_codigo.nextval,'Reed',to_date('02/04/2015','dd/mm/yyyy'));
 
 //INSERTS DE LUGAR
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'VENEZUELA','pais',null);
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'COLOMBIA','pais',null);
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'PERU','pais',null);
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'ECUADOR','pais',null);
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'PANAMA','pais',null);
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'ARGENTINA','pais',null);
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Venezuela','pais',null);
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Colombia','pais',null);
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Peru','pais',null);
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Ecuador','pais',null);
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Panama','pais',null);
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Argentina','pais',null);
 
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'DISTRITO CAPITAL','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'MIRANDA','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'ANZOATEGUI','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'MERIDA','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'COJEDES','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'PORTUGUESA','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'MONAGAS','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'ZULIA','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'LARA','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'VARGAS','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'ARAGUA','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'CARABOBO','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='VENEZUELA'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Distrito Capital','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Miranda','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Anzoategui','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Merida','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Cojedes','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Portuguesa','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Monagas','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Zulia','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Lara','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Vargas','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Aragua','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Carabobo','estado',(select LUGA_codigo from LUGAR where LUGA_nombre='Venezuela'));
 
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'LIBERTADOR','municipio',(select LUGA_codigo from LUGAR where LUGA_nombre='DISTRITO CAPITAL'));
-INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'BARUTA','municipio',(select LUGA_codigo from LUGAR where LUGA_nombre='MIRANDA'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Libertador','municipio',(select LUGA_codigo from LUGAR where LUGA_nombre='Distrito Capital'));
+INSERT INTO LUGAR VALUES (SQ_LUGA_codigo.nextval,'Baruta','municipio',(select LUGA_codigo from LUGAR where LUGA_nombre='Miranda'));
 
 
 //INSERTS DE PROPIETARIO
