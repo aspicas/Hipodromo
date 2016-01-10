@@ -4,36 +4,19 @@ include 'php/oracledb.php';
 <!DOCTYPE>
 <html>
 <head>
-	<title>Hipodromo la Rinconada</title>
+<title>Hipodromo la Rinconada</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" width="device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index_style.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">HR</a>
-	    </div>
-
-	    <div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="index.html">Hipodromo</a></li>		        
-			</ul>	      
-	        </li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
+	
+	<?php include "navbar.php" ?>
 
 	<div class="container space">
 		<h3 class="center">Registro del ejemplar</h3>
@@ -181,7 +164,6 @@ include 'php/oracledb.php';
 		</form>
 	</div>
 
-	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>	
+	
 </body>
 </html>
