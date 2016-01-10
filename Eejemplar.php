@@ -141,14 +141,16 @@ include 'php/oracledb.php';
 				</div>
 			</div>
 			<div class="form-group">
-				<div class="col-sm-offset-4 col-sm-4">
+				<label for="vete" class="col-sm-3 control-label">Veterinario</label>
+				<div class="col-sm-3">					
 					<?php
 						Connect();
 						DesplegarVeterinario("select * from veterinario");
 						Disconnect();
 					?>
 				</div>
-				<div class="col-sm-4">
+				<label for="entr" class="col-sm-3 control-label">Entrenador</label>
+				<div class="col-sm-3">
 					<?php 						
 						Connect();
 						DesplegarEntrenador("select * from ENTRENADOR");
