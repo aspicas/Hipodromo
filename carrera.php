@@ -40,8 +40,6 @@
 			<input type="text" placeholder="" name="cotrasena">
 			<label>Velocidad</label>
 			<input type="number" placeholder="" name="velocidad" required/>
-			<label>Hipodromo</label>
-			<input type="text" placeholder="" name="hipodromo " required/>
 			<label>tipo</label>
 			<input type="tipo" placeholder="" name="tipo" required/>
 

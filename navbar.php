@@ -50,8 +50,8 @@
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Taquilla <span class="caret"></span></a>
 	          <ul class="dropdown-menu" role="menu">
-	            <li><a href="#">Gradas</a></li>
-	            <li><a href="#">Apuestas</a></li>
+	            <li><a href="gradas.php">Gradas</a></li>
+	            <li><a href="apuesta.php">Apuestas</a></li>
 	            
 	          </ul>
 	        </li>
