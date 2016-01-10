@@ -1,6 +1,1 @@
-Query("insert into rous values (SQ_ROUS_codigo.nextval,(select max(usua_codigo) from usuario),(select rol_codigo from rol where ROL_nombre='basico'))");
-
-insert into rous values (SQ_ROUS_codigo.nextval,(select max(usua_codigo) from usuario),(select rol_codigo from rol where ROL_nombre='basico'))
-
-
-(select LUGA_codigo from lugar where luga_nombre='".$parroquia."' and luga_tipo='parroquia' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$municipio."' and luga_tipo='municipio' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$estado."' and luga_tipo='estado' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$pais."' and luga_tipo='pais'))))
+insert into ejemplar values (sq_ejem_codigo.nextval,'".$nombre."','".$pelaje."',to_date('".$fnac."','yyyy-mm-dd'),'".$sexo."','".$tatuaje."','".$raza."','".$madre."','".$padre."',(select hara_codigo from haras where hara_nombre='".$haras."' and fk_luga = ((select LUGA_codigo from lugar where luga_nombre='".$parroquia."' and luga_tipo='parroquia' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$municipio."' and luga_tipo='municipio' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$estado."' and luga_tipo='estado' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$pais."' and luga_tipo='pais')))))),select pues_codigo from puesto, caballeriza where pues_numero = '".$puesto."' and caba_numero = '".$caballeriza."' and fk_caba = caba_codigo;)

@@ -71,7 +71,7 @@
 				<label class="prop">Parroquia:</label>
 				<input class="prop req" type="text" placeholder="Parroquia" name="parroquia" required/>
 				<label class="jine">Altura</label>
-				<input class="jine req" type="number" placeholder="metros" min="5" name="altura" required/>
+				<input class="jine req" placeholder="metros" min="5" name="altura" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required/>
 				<label class="jine checkbox-inline">
 					<input type="checkbox" name="profesional" value="true" id="profesional"> Profesional
 				</label>

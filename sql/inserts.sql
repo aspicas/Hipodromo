@@ -1,0 +1,21 @@
+/*AREA*/
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,17,'tribuna','Capacidad para 200 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,13,'palco','Capacidad para 50 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,9,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,6,'palco','Capacidad para 50 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,6,'palco','Capacidad para 50 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,1,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,8,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,16,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,10,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,15,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,4,'tribuna','Capacidad para 200 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,16,'tribuna','Capacidad para 200 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,2,'palco','Capacidad para 50 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,15,'tribuna','Capacidad para 200 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,8,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,14,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,16,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,9,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,7,'grada central','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,12,'grada central','Capacidad para 300 personas');

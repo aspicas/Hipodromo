@@ -40,6 +40,73 @@ function Select($string)
 	oci_free_statement($query);
 }
 
+function Opcion($string)
+{	
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);
+	echo "<select name=\"opcion\" id=\"seleccion\" required>";
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row['VETE_CODIGO']."'>".$row['VETE_NOMBRE']." ".$row['VETE_APELLIDO']."</option>";
+	}
+	echo "</select>";
+	oci_free_statement($query);
+}
+
+function DesplegarVeterinario($string)
+{	
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);
+	echo "<select name=\"vete\" id=\"selecVETE\" required>";
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row['VETE_CODIGO']."'>".$row['VETE_NOMBRE']." ".$row['VETE_APELLIDO']."</option>";
+	}
+	echo "</select>";
+	oci_free_statement($query);
+}
+
+function DesplegarEntrenador($string)
+{	
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);
+	echo "<select name=\"entr\" id=\"selecENTR\" required>";
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row['ENTR_CODIGO']."'>".$row['ENTR_NOMBRE']." ".$row['ENTR_APELLIDO']."</option>";
+	}
+	echo "</select>";
+	oci_free_statement($query);
+}
+
+function DesplegarPadre($string)
+{	
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);
+	echo "<select name=\"padre\">";
+	echo "<option></option>";
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row['EJEM_CODIGO']."'>".$row['EJEM_NOMBRE']."</option>";
+	}
+	echo "</select>";
+	oci_free_statement($query);
+}
+
+function DesplegarMadre($string)
+{	
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);
+	echo "<select name=\"madre\">";
+	echo "<option></option>";
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row['EJEM_CODIGO']."'>".$row['EJEM_NOMBRE']."</option>";
+	}
+	echo "</select>";
+	oci_free_statement($query);
+}
+
 function IsEmpty($string)
 {
 	global $conn;
@@ -56,12 +123,11 @@ function IsEmpty($string)
 
 if(isset($_POST['query']))
 {
-	try {
+	/*try {
 		Connect();
 		if ($connected == TRUE) {
 			//$name = $_POST["name"];
-			$sexo = $_POST["sexo"];
-			echo "$sexo";
+			//$sexo = $_POST["sexo"];			
 			//Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE) values (SQ_USUA_codigo.NEXTVAL,'".$name."','".$lastName."')");
 			//Query("update usuario set nombre='".$lastName."' where nombre='".$name."'");
 			//Query("delete from usuario where nombre='".$name."'");
@@ -73,13 +139,24 @@ if(isset($_POST['query']))
 			else
 			{
 				echo "esta lleno";
-			}*/
+			}
+			Query("insert into puesto values (sq_pues_codigo.nextval,to_date('2015-05-01','yyyy-mm-dd'),to_date('2016-01-01','yyyy-mm-dd'),5,1)");
 			Disconnect();
 		}
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
-	}//*/*	
-	//echo "<script type=\"text/javascript\">alert(\"Se ha registrado exitosamente\");window.location.href=\"../NOLOBORREN.html\"</script>";
-	//header("Location: http://localhost/Hipodromo/NOLOBORREN.html");//("Location: ../NOLOBORREN.html");	
+	}///*/
+	/*$test = $_POST["test"];
+
+	if ($test == null) {
+		echo "Es null";
+	}
+	else
+	{
+		echo "No es null";
+	}//*/
+	Connect();
+	Select("select * from rol");	
+	Disconnect();//*/
 }
 ?>

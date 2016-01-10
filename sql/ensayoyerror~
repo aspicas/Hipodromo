@@ -4,3 +4,28 @@ insert into rous values (SQ_ROUS_codigo.nextval,(select max(usua_codigo) from us
 
 
 (select LUGA_codigo from lugar where luga_nombre='".$parroquia."' and luga_tipo='parroquia' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$municipio."' and luga_tipo='municipio' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$estado."' and luga_tipo='estado' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$pais."' and luga_tipo='pais'))))
+
+insert into haras values (sq_hara_codigo.nextval,'nombre',LUGAR);
+
+select vete_nombre, vete_apellido from veterinario;
+select entr_nombre, entr_apellido from entrenador;
+
+insert into caballeriza values (sq_caba_codigo.nextval,NUMERO,ENTR,VETE);
+
+insert into puesto (pues_codigo,pues_fecha_inicio,pues_numero,fk_caba) values (sq_pues_codigo.nextval,to_date('2015-05-01','yyyy-mm-dd'),numero,caballeriza);
+
+insert into puesto values (sq_pues_codigo.nextval,to_date('2015-05-01','yyyy-mm-dd'),null,5,1);
+
+insert into puesto values (sq_pues_codigo.nextval,to_date('2015-05-01','yyyy-mm-dd'),to_date('2016-01-01','yyyy-mm-dd'),5,1);
+
+select ejem_codigo, ejem_nombre from ejemplar where ejem_sexo='hembra';
+select ejem_codigo, ejem_nombre from ejemplar where ejem_sexo='macho';
+
+insert into ejemplar values (sq_ejem_codigo.nextval,'ejem5','pelaje',to_date('1993-06-12','yyyy-mm-dd'),'macho','ds45fg45','raza',3,1,1,1);
+
+
+(select LUGA_codigo from lugar where luga_nombre='".$parroquia."' and luga_tipo='parroquia' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$municipio."' and luga_tipo='municipio' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$estado."' and luga_tipo='estado' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$pais."' and luga_tipo='pais'))))
+
+select hara_codigo from haras where hara_nombre='nombre' and fk_luga = ();
+
+select pues_codigo from puesto, caballeriza where pues_numero = 1 and caba_numero = 2 and fk_caba = caba_codigo;

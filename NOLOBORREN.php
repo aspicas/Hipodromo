@@ -11,12 +11,24 @@
 <body>
 	<form method="post" action="php/oracledb.php">
 		<!--Name: <input type="text" name="name" placeholder="Name"><br>-->
-		<!--Last Name: <input type="text" name="lastname" placeholder="Last Name"><br>-->
+		<!--Last Name: <input type="text" name="lastname" placeholder="Last Name"><br>-->		
+		<!--<select name="opcion" id="seleccion" onchange="fill()" required>
+			
+		</select>-->
+
+		<?php 
+			include 'php/oracledb.php';
+
+			Connect();
+			Opcion("select * from veterinario");
+			Disconnect();
+		?>
+
 		<input type="submit" value="click" name="query">
 	</form>
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-	<!--<script type="text/javascript">	
+	<script type="text/javascript">	
 	var cuisines = ["Chinese","Indian"];	
 	var sel = document.getElementById('seleccion');
 	for(var i = 0; i < cuisines.length; i++) {
@@ -25,6 +37,6 @@
 	    opt.value = cuisines[i];
 	    sel.appendChild(opt);
 	}*/
-	</script>-->
+	</script>
 </body>
 </html>
