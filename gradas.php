@@ -16,7 +16,7 @@
 
 	<div class="campo_area">
 		<div class="area_1">
-			<form method="post" action="php/registrarUsuario.php">	
+			<form method="post" action="#">	
 				<h1>Comprar Boleto</h1>
 				<label>Tipo de grada a comprar:</label>
 				<select name="opcion1" id="opcion" required>

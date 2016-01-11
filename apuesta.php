@@ -14,25 +14,35 @@
 <body>
 	<?php include "navbar.php" ?>
 
-	<div class="campo_area">
-		<div class="area_1">
-			<form method="post" action="php/registrarUsuario.php">	
-				<h1>Apuesta</h1>
-				<label>Tipo de apuesta:</label>
-				<input type="text" maxlength="20" placeholder="Nombre de la apuesta">
-
-				<label>Apuesta Mínima:</label>
-				<input type="text" maxlength="8" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" placeholder="Monto">
+	<div class="container">		
+			<form class="form-horizontal" method="post" action="php/registrarApuesta.php">	
+				<h1>Crear Apuesta</h1>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Nombre:</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" placeholder="Nombre de la apuesta" maxlength="20" name="nombre" required>
+					</div>
+				</div>
 				<span>NOTA: se trabaja con moneda nacional (BsF)</span>
-				<label>Regla:</label>
-				<textarea></textarea>	
-
-				<input type="submit" value="Apostar" name="registrar">			
+				<p></p>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Apuesta Mínima:</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" maxlength="5" placeholder="Monto" maxlength="20" name="minimo" required>
+					</div>
+				</div>				
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Regla:</label>
+					<div class="col-sm-9">
+						<textarea rows="2" cols="40" maxlength="150" name="regla" required></textarea>						
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-3 col-sm-9">
+						<input class="botonregistar" type="submit" value="crear" name="crear">
+					</div>
+				</div>
 	     	</form>
-		</div>
-	</div>
-
-	
-	
+	</div>	
 </body>
 </html>
