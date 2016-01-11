@@ -131,6 +131,7 @@ alter table ROL add constraint CH_rol_permiso check (ROL_permiso IN ('B', 'L', '
 alter table PESO add constraint CH_peso_tipo check (PESO_tipo IN ('ejemplar', 'jinete'));
 
 /*Unique*/
+alter table caballeriza add constraint UN_caba_numero unique (caba_numero);
 alter table PROPIETARIO add constraint UN_prop_cedula unique (PROP_cedula);
 alter table PROPIETARIO add constraint UN_prop_email unique (PROP_email);
 alter table JINETE add constraint UN_jine_cedula unique (JINE_cedula);
@@ -140,3 +141,8 @@ alter table ENFERMEDAD add constraint UN_enfe_nombre unique (ENFE_nombre);
 alter table APUESTA add constraint UN_apue_nombre unique (APUE_nombre);
 alter table USUARIO add constraint UN_usua_nombre unique (USUA_nombre);
 alter table ROL add constraint UN_rol_nombre unique (ROL_nombre);
+alter table puesto add constraint UN_pues_numero_caba unique (pues_numero,fk_caba);
+alter table haras add constraint UN_hara_nombre unique (HARA_nombre);
+/*alter table hora add constraint UN_hora_inicio_fin_dia unique (hora_inicio,hora_fin,hora_dia);*/
+alter table hora add constraint UN_hora_inicio_fin_dia unique (hora_inicio,hora_dia);
+alter table pista add constraint UN_pist_longitud unique (pist_longitud);

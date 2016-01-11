@@ -107,6 +107,28 @@ function DesplegarMadre($string)
 	oci_free_statement($query);
 }
 
+function DesplegarC2Valores($string,$value1,$value2)
+{
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);	
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row[$value1]."'>".$row[$value2]."</option>";
+	}
+	oci_free_statement($query);
+}
+
+function DesplegarC1Valores($string,$value1)
+{
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);	
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row[$value1]."'>".$row[$value1]."</option>";
+	}
+	oci_free_statement($query);
+}
+
 function IsEmpty($string)
 {
 	global $conn;
@@ -123,7 +145,7 @@ function IsEmpty($string)
 
 if(isset($_POST['query']))
 {
-	/*try {
+	try {
 		Connect();
 		if ($connected == TRUE) {
 			//$name = $_POST["name"];
@@ -133,30 +155,18 @@ if(isset($_POST['query']))
 			//Query("delete from usuario where nombre='".$name."'");
 			//Select("select * from rol");
 			/*
-			if (IsEmpty("select luga_codigo from lugar where luga_nombre='MIRANDA'")) {
+			if (IsEmpty("select pues_codigo from puesto, caballeriza where pues_numero = 1 and caba_numero = 2 and fk_caba = caba_codigo")) {
 				echo "esta vacio";
 			}
 			else
 			{
 				echo "esta lleno";
-			}
-			Query("insert into puesto values (sq_pues_codigo.nextval,to_date('2015-05-01','yyyy-mm-dd'),to_date('2016-01-01','yyyy-mm-dd'),5,1)");
+			}//*/
+			DesplegarC2Valores("select PIST_CODIGO, PIST_LONGITUD from pista","PIST_CODIGO","PIST_LONGITUD");
 			Disconnect();
 		}
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
-	}///*/
-	/*$test = $_POST["test"];
-
-	if ($test == null) {
-		echo "Es null";
 	}
-	else
-	{
-		echo "No es null";
-	}//*/
-	Connect();
-	Select("select * from rol");	
-	Disconnect();//*/
 }
 ?>

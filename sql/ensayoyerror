@@ -1,1 +1,9 @@
-insert into ejemplar values (sq_ejem_codigo.nextval,'".$nombre."','".$pelaje."',to_date('".$fnac."','yyyy-mm-dd'),'".$sexo."','".$tatuaje."','".$raza."','".$madre."','".$padre."',(select hara_codigo from haras where hara_nombre='".$haras."' and fk_luga = ((select LUGA_codigo from lugar where luga_nombre='".$parroquia."' and luga_tipo='parroquia' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$municipio."' and luga_tipo='municipio' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$estado."' and luga_tipo='estado' and fk_luga = (select LUGA_codigo from lugar where luga_nombre='".$pais."' and luga_tipo='pais')))))),select pues_codigo from puesto, caballeriza where pues_numero = '".$puesto."' and caba_numero = '".$caballeriza."' and fk_caba = caba_codigo;)
+select distinct hora_inicio from hora;
+select distinct hora_fin from hora;
+select distinct hora_dia from hora;
+
+select pist_codigo, pist_longitud from pista;
+
+insert into carrera values (sq_carr_codigo.nextval,'carrera1','clasico',to_date('2015-05-05','yyyy-mm-dd'),1,'asd123',15,2,(select pist_codigo from pista where pist_longitud=1929),(select hora_codigo from hora where hora_inicio='14:00:00' and hora_dia='domingo'));
+
+select distinct hora_dia from hora where hora_inicio='14:00:00';

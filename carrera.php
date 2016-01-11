@@ -1,3 +1,6 @@
+<?php 
+include 'php/oracledb.php';
+?>
 <!DOCTYPE>
 <html>
 <head>
@@ -15,48 +18,95 @@
 	
 	<?php include "navbar.php" ?>
 
-	<div class="campo_area">
-		<div class="area_1">
-		<form action="">	
-			<h1>Registrar Carrera</h1>
-		
-		    <label for="">Nombre de la carrera :</label>
-			<input title="Se requiere un nombre " type="text" placeholder="" name="nombre" required/>
-			<label for="">Categoria:</label>
-			<select title="se requiere el tipo de carrera " type="text" placeholder="" name="Apellido" required/>
-			<option>Copa</option>
-			<option>Normal</option>
-			<option>Clásico</option>
-		</select>
-			<label for="">Peso de ejemplar :</label>
-			<input title="se requiere Peso del ejemplar  " type="text" placeholder="" pattern="8" name="cedula" id="" required/>
-			<label>posicion:</label>
-			<input title="se requiere su poscion" placeholder="" pattern="" name="posicion" id="">
-			<label for="">Fecha  :</label>
-			<input type="date" placeholder="" name="" id="">
-			<label for="">Numero de  carrera :</label>
-			<input type="number " placeholder="" name="cotrasena">
-			<label for="">Distancia :</label>
-			<input type="text" placeholder="" name="cotrasena">
-			<label>Velocidad</label>
-			<input type="number" placeholder="" name="velocidad" required/>
-			<label>tipo</label>
-			<input type="tipo" placeholder="" name="tipo" required/>
-
-
-			<label for="">Retiro:</label>
-			<textarea for="">Retiro:</textarea>
-									
-			
-			<input class="botonregistar" type="submit"value="registrar">
-			
+	<div class="container">		
+			<form class="form-horizontal" method="post" action="php/registrarCarrera.php">	
+				<h1 class="center">Registrar Carrera</h1>
+			    <div class="form-group">
+					<label class="col-sm-3 control-label">Nombre:</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" name="nombre" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Categoria:</label>
+					<div class="col-sm-9">
+						<select name="categoria" required/>
+							<option value="copa">Copa</option>
+							<option value="normal">Normal</option>
+							<option value="clasico">Clásico</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Fecha:</label>
+					<div class="col-sm-9">
+						<input type="date" name="fecha" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Numero de carrera:</label>
+					<div class="col-sm-9">
+						<input onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" name="numCarr" maxlength="2" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Lote:</label>
+					<div class="col-sm-9">
+						<input type="text" name="lote" required/>		
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Distancia:</label>
+					<div class="col-sm-9">
+						<input onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" maxlength="4" name="distancia" required/>	
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Variante:</label>
+					<div class="col-sm-9">
+						<input onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" maxlength="4" name="variante" required/>	
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Pista:</label>
+					<div class="col-sm-9">
+						<select name="pista" required>							
+							<option>Longitud</option>
+							<?php
+								Connect();
+								DesplegarC2Valores("select PIST_CODIGO, PIST_LONGITUD from pista order by pist_longitud","PIST_CODIGO","PIST_LONGITUD");
+								Disconnect();
+							?>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Hora:</label>
+					<div class="col-sm-3">
+						<select name="inicio" required>
+							<?php 
+								Connect();
+								DesplegarC1Valores("select distinct hora_inicio from hora order by hora_inicio","HORA_INICIO");
+								Disconnect();
+							?>
+						</select>
+					</div>
+					<div class="col-sm-3">
+						<select name="dia" required>							
+							<?php 
+								Connect();								
+								DesplegarC1Valores("select distinct hora_dia from hora order by hora_dia desc","HORA_DIA");								
+								Disconnect();
+							?>
+						</select>
+					</div>
+				</div>				
+				<div class="form-group">
+					<div class="col-sm-offset-3 col-sm-9">
+						<input class="botonregistar" type="submit" value="registrar" name="registrar">
+					</div>
+				</div>				
      		</form>
 	</div>
-
-
-
-
-
-
 </body>
 </html>

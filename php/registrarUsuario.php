@@ -69,16 +69,11 @@ if (isset($_POST['registrar'])) {
 			Disconnect();
 			echo "<script type=\"text/javascript\">
 					alert(\"Se ha registrado exitosamente\");
-					window.location.href=\"../index.html\"
+					window.location.href=\"../index.php\"
 				</script>";
 		}
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
-	}/*/	
-	Connect();
-	//Query("insert into veterinario values (SQ_VETE_codigo.nextval,'".$name."','".$lName."')");
-	//Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_VETE) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(VETE_codigo) from veterinario))");	
-	echo "<p>Paso1</p>";
-	Disconnect();//*/	
+	}
 }
 ?>
