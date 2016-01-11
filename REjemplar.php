@@ -19,15 +19,14 @@ include 'php/oracledb.php';
 	<?php include "navbar.php" ?>
 
 	<div class="container space">
-		<h3 class="center">Borrar entrenador</h3>
-		<form class="form-horizontal" method="post" action="php/entrenador.php">
-			<div class="form-group">
-				<label for="haras" class="col-sm-3 control-label">Entrenador</label>
-				<div class="col-sm-9">
+		<h3 class="center">Ejemplar</h3>
+		<form class="form-horizontal" method="post" action="php/registrarEjemplar.php">
+			<div class="form-group">				
+				<div class="col-sm-12">
 					<select name="codigo" required>
 						<?php 
 							Connect();
-							DesplegarC3Valores("select entr_codigo, entr_nombre, entr_apellido from entrenador","ENTR_CODIGO","ENTR_NOMBRE","ENTR_APELLIDO");
+							DesplegarC3Valores("select ejem_codigo, ejem_nombre, ejem_fecha_nac from ejemplar order by ejem_codigo","EJEM_CODIGO","EJEM_NOMBRE","EJEM_FECHA_NAC");
 							Disconnect();
 						?>
 					</select>
