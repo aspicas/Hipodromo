@@ -53,6 +53,7 @@
 				<ul class="dropdown-menu" role="menu">
 				    <li><a href="gradas.php">Gradas</a></li>
 				    <li><a href="apuesta.php">Crear Apuestas</a></li>
+				    <li><a href="DApuesta.php">Eliminar Apuestas</a></li>
 			  	</ul>
 			</li>
 		</ul>
