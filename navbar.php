@@ -47,6 +47,7 @@
 					<li><a href="#">STUD</a></li>
 					<li><a href="#">Propietarios</a></li>
 					<li><a href="CStud.php">Crear stud</a></li>
+					<li><a href="UStud.php">Modificar stud</a></li>
 					<li><a href="DStud.php">Borrar stud</a></li>
 				</ul>
 			</li>
