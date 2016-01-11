@@ -22,6 +22,7 @@
 				</ul>
 			</li>
 			<li><a href="#">Gaceta</a></li>
+			<li><a href="#">Taquilla</a></li>
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Carrera <span class="caret"></span></a>
 			  <ul class="dropdown-menu" role="menu">
@@ -50,11 +51,28 @@
 				</ul>
 			</li>
 			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Taquilla <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">
-				    <li><a href="gradas.php">Gradas</a></li>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Apuesta <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">				    
 				    <li><a href="apuesta.php">Crear Apuestas</a></li>
 				    <li><a href="DApuesta.php">Eliminar Apuestas</a></li>
+			  	</ul>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Entrenador <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">				    				    
+				    <li><a href="DEntrenador.php">Eliminar</a></li>
+			  	</ul>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Jinete <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">				    				    
+				    <li><a href="DJinete.php">Eliminar</a></li>
+			  	</ul>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Propietario <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">				    				    
+				    <li><a href="Dpropietario.php">Eliminar</a></li>
 			  	</ul>
 			</li>
 		</ul>

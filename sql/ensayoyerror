@@ -1,3 +1,14 @@
 select stud_codigo, stud_nombre from stud;
 
 delete from stud where stud_codigo = 102;
+
+select usua_codigo,usua_nombre from usuario;
+
+delete from usuario where usua_codigo = 14;
+
+
+select entr_codigo, entr_nombre, entr_apellido from entrenador;
+
+select jine_codigo,jine_nombre,jine_apellido,jine_cedula from jinete;
+
+select prop_codigo,prop_nombre,prop_apellido,prop_cedula from propietario;
