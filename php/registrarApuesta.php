@@ -27,7 +27,7 @@ elseif (isset($_POST['borrar'])) {
 		Connect();
 		$codigo = $_POST["codigo"];
 		Query("delete from apuesta where apue_codigo = '".$codigo."'");		
-		Disconnect();/*
+		Disconnect();//*
 		echo "<script type=\"text/javascript\">
 					alert(\"Se ha borrado exitosamente\");
 					window.location.href=\"../index.php\"

@@ -28,6 +28,7 @@
 			    <li><a href="#">Horario</a></li>
 			    <li><a href="#">Informacion</a></li>
 			    <li><a href="carrera.php">Registrar</a></li>
+			    <li><a href="DCarrera.php">Borrar</a></li>
 			  </ul>
 			</li>
 			<li><a href="#">Taquilla <span class="sr-only">(current)</span></a></li>
