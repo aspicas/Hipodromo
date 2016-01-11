@@ -107,6 +107,17 @@ function DesplegarMadre($string)
 	oci_free_statement($query);
 }
 
+function DesplegarC1Valores($string,$value1)
+{
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);	
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row[$value1]."'>".$row[$value1]."</option>";
+	}
+	oci_free_statement($query);
+}
+
 function DesplegarC2Valores($string,$value1,$value2)
 {
 	global $conn;
@@ -118,13 +129,13 @@ function DesplegarC2Valores($string,$value1,$value2)
 	oci_free_statement($query);
 }
 
-function DesplegarC1Valores($string,$value1)
+function DesplegarC3Valores($string,$value1,$value2,$value3)
 {
 	global $conn;
 	$query = oci_parse($conn, $string);
 	oci_execute($query);	
 	while (($row = oci_fetch_assoc($query)) != false) {		
-		echo "<option value='".$row[$value1]."'>".$row[$value1]."</option>";
+		echo "<option value='".$row[$value1]."'>".$row[$value2].", ".$row[$value3]."</option>";
 	}
 	oci_free_statement($query);
 }

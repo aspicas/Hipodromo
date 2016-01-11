@@ -45,7 +45,7 @@
 					<li><a href="Eejemplar.php">Registrar</a></li>
 					<li><a href="#">Consultar</a></li>
 					<li><a href="#">Modificar</a></li>
-					<li><a href="#">Eliminar</a></li>
+					<li><a href="DEjemplar.php">Eliminar</a></li>
 				</ul>
 			</li>
 			<li class="dropdown">
