@@ -146,3 +146,4 @@ alter table haras add constraint UN_hara_nombre unique (HARA_nombre);
 /*alter table hora add constraint UN_hora_inicio_fin_dia unique (hora_inicio,hora_fin,hora_dia);*/
 alter table hora add constraint UN_hora_inicio_fin_dia unique (hora_inicio,hora_dia);
 alter table pista add constraint UN_pist_longitud unique (pist_longitud);
+alter table stud add constraint UN_stud_nombre unique (stud_nombre);

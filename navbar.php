@@ -36,6 +36,7 @@
 				<ul class="dropdown-menu" role="menu">
 					<li><a href="#">STUD</a></li>
 					<li><a href="#">Propietarios</a></li>
+					<li><a href="CStud.php">Crear stud</a></li>
 				</ul>
 			</li>
 			<li class="dropdown">
