@@ -3,3 +3,5 @@ insert into caej values (sq_caej_codigo.nextval,1,1,1,1,1,null,1,to_date('2015-0
 insert into caej values (sq_caej_codigo.nextval,'".$puesto."','".$nEjemplar."','".$posicion."','".$velocidad."','".$cuerpo."','".$retiro."','".$nLlamado."',to_date('".$fins."','yyyy-mm-dd'),'".$monto."',to_date('".$flim."','yyyy-mm-dd'),'".$favorito."','".$ejemplar."','".$carrera."','".$inicio."','".$jinete."')
 
 select hora_codigo from hora where hora_dia='viernes' and hora_inicio='15:00:00'
+
+select caej_codigo, carr_nombre, ejem_nombre, hora_inicio, hora_dia, jine_nombre, jine_apellido from caej cj, carrera, ejemplar, hora, jinete where cj.fk_ejem = ejem_codigo and cj.fk_carr = carr_codigo and cj.fk_hora = hora_codigo and cj.fk_jine = jine_codigo;

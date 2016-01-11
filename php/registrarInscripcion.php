@@ -33,11 +33,11 @@ if (isset($_POST['registrar'])) {
 			
 			Query("insert into caej values (sq_caej_codigo.nextval,'".$puesto."','".$nEjemplar."','".$posicion."','".$velocidad."','".$cuerpo."','".$retiro."','".$nLlamado."',to_date('".$fins."','yyyy-mm-dd'),'".$monto."',to_date('".$flim."','yyyy-mm-dd'),'".$favorito."','".$ejemplar."','".$carrera."',(select hora_codigo from hora where hora_dia='".$dia."' and hora_inicio='".$inicio."'),'".$jinete."')");
 			
-			Disconnect();/*
+			Disconnect();
 			echo "<script type=\"text/javascript\">
 					alert(\"Se ha registrado exitosamente\");
 					window.location.href=\"../index.php\"
-				</script>";//*/
+				</script>";
 		}
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
@@ -48,7 +48,7 @@ elseif (isset($_POST['borrar'])) {
 	try {
 		Connect();
 		$codigo = $_POST["codigo"];
-		Query("delete from carrera where carr_codigo = '".$codigo."'");
+		Query("delete from caej where caej_codigo = '".$codigo."'");
 		Disconnect();//*
 		echo "<script type=\"text/javascript\">
 					alert(\"Se ha borrado exitosamente\");

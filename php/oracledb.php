@@ -151,6 +151,17 @@ function DesplegarC4Valores($string,$value1,$value2,$value3,$value4)
 	oci_free_statement($query);
 }
 
+function DesplegarC7Valores($string,$value1,$value2,$value3,$value4,$value5,$value6,$value7)
+{
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);	
+	while (($row = oci_fetch_assoc($query)) != false) {		
+		echo "<option value='".$row[$value1]."'>".$row[$value2].", ".$row[$value3].", ".$row[$value4].", ".$row[$value5].", ".$row[$value6].", ".$row[$value7]."</option>";
+	}
+	oci_free_statement($query);
+}
+
 function IsEmpty($string)
 {
 	global $conn;
