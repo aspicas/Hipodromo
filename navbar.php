@@ -29,6 +29,8 @@
 			    <li><a href="#">Horario</a></li>
 			    <li><a href="#">Informacion</a></li>
 			    <li><a href="carrera.php">Registrar</a></li>
+			    <li><a href="#">Consultar</a></li>
+				<li><a href="UCarrera.php">Modificar</a></li>
 			    <li><a href="DCarrera.php">Borrar</a></li>
 			  </ul>
 			</li>

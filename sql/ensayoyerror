@@ -1,7 +1,3 @@
-insert into caej values (sq_caej_codigo.nextval,1,1,1,1,1,null,1,to_date('2015-01-01','yyyy-mm-dd'),100,to_date('2015-02-01','yyyy-mm-dd'),null,26,13,63,5)
+update carrera set carr_nombre='nuevo',carr_categoria='copa',carr_fecha=to_date('2015-02-15','yyyy-mm-dd'),carr_num_carrera=4,carr_lote='5df45df',carr_distancia=2,carr_variante=5 where carr_codigo = 13;
 
-insert into caej values (sq_caej_codigo.nextval,'".$puesto."','".$nEjemplar."','".$posicion."','".$velocidad."','".$cuerpo."','".$retiro."','".$nLlamado."',to_date('".$fins."','yyyy-mm-dd'),'".$monto."',to_date('".$flim."','yyyy-mm-dd'),'".$favorito."','".$ejemplar."','".$carrera."','".$inicio."','".$jinete."')
-
-select hora_codigo from hora where hora_dia='viernes' and hora_inicio='15:00:00'
-
-select caej_codigo, carr_nombre, ejem_nombre, hora_inicio, hora_dia, jine_nombre, jine_apellido from caej cj, carrera, ejemplar, hora, jinete where cj.fk_ejem = ejem_codigo and cj.fk_carr = carr_codigo and cj.fk_hora = hora_codigo and cj.fk_jine = jine_codigo;
+fk_pist=114,fk_hora=(select hora_codigo from hora where hora_inicio='15:00:00' and hora_dia='viernes')
