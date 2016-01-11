@@ -1,9 +1,3 @@
-select distinct hora_inicio from hora;
-select distinct hora_fin from hora;
-select distinct hora_dia from hora;
+select stud_codigo, stud_nombre from stud;
 
-select pist_codigo, pist_longitud from pista;
-
-insert into carrera values (sq_carr_codigo.nextval,'carrera1','clasico',to_date('2015-05-05','yyyy-mm-dd'),1,'asd123',15,2,(select pist_codigo from pista where pist_longitud=1929),(select hora_codigo from hora where hora_inicio='14:00:00' and hora_dia='domingo'));
-
-select distinct hora_dia from hora where hora_inicio='14:00:00';
+delete from stud where stud_codigo = 102;

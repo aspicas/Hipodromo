@@ -30,14 +30,14 @@
 			    <li><a href="carrera.php">Registrar</a></li>
 			    <li><a href="DCarrera.php">Borrar</a></li>
 			  </ul>
-			</li>
-			<li><a href="#">Taquilla <span class="sr-only">(current)</span></a></li>
+			</li>			
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">STUD <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
 					<li><a href="#">STUD</a></li>
 					<li><a href="#">Propietarios</a></li>
 					<li><a href="CStud.php">Crear stud</a></li>
+					<li><a href="DStud.php">Borrar stud</a></li>
 				</ul>
 			</li>
 			<li class="dropdown">
