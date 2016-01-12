@@ -45,7 +45,7 @@ if (isset($_POST['registrar'])) {
 			}
 			elseif ($opcion == "entrenador") {
 				Query("insert into entrenador values (SQ_ENTR_codigo.nextval,'".$name."','".$lName."')");
-				Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_ENTR) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(ENTR_codigo) from entrenador))");				
+				Query("insert into usuario (USUA_CODIGO, USUA_NOMBRE, USUA_CLAVE, FK_ENTR) values (SQ_USUA_codigo.NEXTVAL,'".$username."','".$pass."',(select max(ENTR_codigo) from entrenador))");
 			}
 			elseif ($opcion == "veterinario") {				
 				Query("insert into veterinario values (SQ_VETE_codigo.nextval,'".$name."','".$lName."')");

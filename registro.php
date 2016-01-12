@@ -25,7 +25,7 @@
 				<label> Apellido:</label>
 				<input title="se requiere el apellido" type="text" placeholder="" name="apellido" required/>
 				<label> Contrasena:</label>
-				<input type="password" placeholder="" name="clave" required>			
+				<input type="password" placeholder="" name="clave" required>
 				<label>Registrar como</label>
 				<select name="opcion" id="opcion" required>
 					<option value="empty"></option>

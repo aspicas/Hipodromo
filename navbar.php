@@ -38,6 +38,7 @@
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inscripcion<span class="caret"></span></a>
 			  <ul class="dropdown-menu" role="menu">			    
 			    <li><a href="caej.php">Registrar</a></li>
+			    <li><a href="UInscripcion.php">Modificar</a></li>
 			    <li><a href="DInscripcion.php">Borrar</a></li>
 			  </ul>
 			</li>	
@@ -63,25 +64,29 @@
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Apuesta <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">				    
-				    <li><a href="apuesta.php">Crear Apuestas</a></li>
-				    <li><a href="DApuesta.php">Eliminar Apuestas</a></li>
+				    <li><a href="apuesta.php">Crear</a></li>
+				    <li><a href="UApuesta.php">Modificar</a></li>
+				    <li><a href="DApuesta.php">Eliminar</a></li>
 			  	</ul>
 			</li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Entrenador <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">				    				    
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="UEntrenador.php">Modificar</a></li>	    				    
 				    <li><a href="DEntrenador.php">Eliminar</a></li>
 			  	</ul>
 			</li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Jinete <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">				    				    
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="UJinete.php">Modificar</a></li>
 				    <li><a href="DJinete.php">Eliminar</a></li>
 			  	</ul>
 			</li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Propietario <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">				    				    
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="UPropietario.php">Modificar</a></li>
 				    <li><a href="Dpropietario.php">Eliminar</a></li>
 			  	</ul>
 			</li>

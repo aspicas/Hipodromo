@@ -36,4 +36,23 @@ elseif (isset($_POST['borrar'])) {
 		echo "Message: " .$e->getMessage();
 	}	
 }
+elseif (isset($_POST['modificar'])) {
+	try {
+		Connect();
+		$codigo = $_POST["codigo"];
+		$nombre = $_POST["nombre"];
+		$minimo = $_POST["minimo"];
+		$regla = $_POST["regla"];
+
+		Query("update apuesta set apue_nombre='".$nombre."',apue_minimo='".$minimo."',apue_regla='".$regla."' where apue_codigo=".$codigo."");
+
+		Disconnect();//*
+		echo "<script type=\"text/javascript\">
+					alert(\"Se ha modificado exitosamente\");
+					window.location.href=\"../index.php\"
+				</script>";//*/
+	} catch (Exception $e) {
+		echo "Message: " .$e->getMessage();
+	}
+}
 ?>

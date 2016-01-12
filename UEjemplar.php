@@ -22,7 +22,7 @@ include 'php/oracledb.php';
 		<h3 class="center">Modificar Ejemplar</h3>
 		<form class="form-horizontal" method="post" action="php/registrarEjemplar.php">
 			<div class="form-group">
-				<label class="col-sm-offset-3 col-sm-9">Carrera,Categoria,Fecha,N/C,Lote,Distancia,Variante,Longitud,Hora,Dia</label>
+				<label class="col-sm-offset-3 col-sm-9">Nombre,Fecha,Sexo,Tatuaje,Pelaje,</label>
 				<label for="haras" class="col-sm-3 control-label">Ejemplar</label>
 				<div class="col-sm-9">
 					<select name="codigo" required>

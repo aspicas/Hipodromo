@@ -1,7 +1,5 @@
-update carrera set carr_nombre='nuevo',carr_categoria='copa',carr_fecha=to_date('2015-02-15','yyyy-mm-dd'),carr_num_carrera=4,carr_lote='5df45df',carr_distancia=2,carr_variante=5 where carr_codigo = 13;
+select apue_codigo,apue_nombre,apue_minimo,apue_regla from apuesta order by apue_codigo;
 
-fk_pist=114,fk_hora=(select hora_codigo from hora where hora_inicio='15:00:00' and hora_dia='viernes')
+update apuesta set apue_nombre='lala',apue_minimo='100',apue_regla='Bachaquear' where apue_codigo=26;
 
-update stud set stud_nombre='pow',stud_fecha_creacion=to_date('2015-01-01','yyyy-mm-dd') where stud_codigo=105;
-
-update ejemplar set ejem_nombre='nombre',ejem_pelaje='pel',ejem_fecha_nac=to_date('2015-01-01','yyyy-mm-dd'),ejem_sexo='macho',ejem_tatuaje='213wqe',ejem_raza=null,fk_ejem_m=null,fk_ejem_p=null,fk_hara=5,fk_pues=10 where ejem_codigo=26;
+update caej set caej_puesto_partida=2,caej_num_ejemplar=2,caej_posicion=2,caej_velocidad=2,caej_cuerpo=2,caej_retiro=null,caej_num_llamado=2,caej_fecha_ins=to_date('2004-02-02','yyyy-mm-dd'),caej_monto_ins=22,caej_fecha_limite_ins=to_date('2004-03-02','yyyy-mm-dd'),caej_favorito=null,fk_ejem=28,fk_carr=14,fk_hora=71,fk_jine=5 where caej_codigo=1;
