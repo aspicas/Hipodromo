@@ -22,12 +22,13 @@ include 'php/oracledb.php';
 		<h3 class="center">Modificar Stud</h3>
 		<form class="form-horizontal" method="post" action="php/registrarStud.php">
 			<div class="form-group">
+				<label class="col-sm-offset-3 col-sm-9">Nombre,Fecha</label>
 				<label for="haras" class="col-sm-3 control-label">Stud</label>
 				<div class="col-sm-9">
 					<select name="codigo" required>
 						<?php 
 							Connect();
-							DesplegarC2Valores("select stud_codigo, stud_nombre from stud order by stud_codigo","STUD_CODIGO","STUD_NOMBRE");
+							DesplegarC3Valores("select stud_codigo, stud_nombre, stud_fecha_creacion from stud order by stud_codigo","STUD_CODIGO","STUD_NOMBRE","STUD_FECHA_CREACION");
 							Disconnect();
 						?>
 					</select>

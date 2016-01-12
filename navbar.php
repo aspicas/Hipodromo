@@ -56,7 +56,7 @@
 				<ul class="dropdown-menu" role="menu">
 					<li><a href="Eejemplar.php">Registrar</a></li>
 					<li><a href="#">Consultar</a></li>
-					<li><a href="#">Modificar</a></li>
+					<li><a href="UEjemplar.php">Modificar</a></li>
 					<li><a href="DEjemplar.php">Eliminar</a></li>
 				</ul>
 			</li>
