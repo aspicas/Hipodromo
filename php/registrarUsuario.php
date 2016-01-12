@@ -76,8 +76,7 @@ if (isset($_POST['registrar'])) {
 		echo "Message: " .$e->getMessage();
 	}
 }
-elseif (isset($_POST['borrar'])) {
-	
+elseif (isset($_POST['borrar'])) {	
 	try {
 		Connect();
 		$codigo = $_POST["codigo"];
@@ -87,6 +86,27 @@ elseif (isset($_POST['borrar'])) {
 					alert(\"Se ha borrado exitosamente\");
 					window.location.href=\"../index.php\"
 				</script>";//*/
+	} catch (Exception $e) {
+		echo "Message: " .$e->getMessage();
+	}	
+}/*
+if (isset($_POST['ingresar'])) {
+	try {
+		Connect();
+		$usuario = $_POST["usuario"];
+		$clave = $_POST["clave"];		
+		
+		if (IsEmpty("select usua_codigo from usuario where usua_nombre='".$usuario."' and usua_clave='".$clave."'") == false) {
+			$rol = Value();
+			session_start();
+			$_SESSION['usuario']  = $usuario;
+			$_SESSION['rol']  = 'verde';
+		}
+
+		Disconnect();/*
+		echo "<script type=\"text/javascript\">
+					window.location.href=\"../index.php\"
+				</script>";///
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
 	}	

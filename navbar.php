@@ -86,6 +86,7 @@
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Propietario <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
+					<li><a href="telefono.php">Telefono</a></li>
 					<li><a href="UPropietario.php">Modificar</a></li>
 				    <li><a href="Dpropietario.php">Eliminar</a></li>
 			  	</ul>
@@ -97,12 +98,12 @@
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Iniciar Seccion <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
 					<li>  
-						<form class="navbar-form navbar-left" role="search">
+						<form class="navbar-form navbar-left" role="search" method="post" action="php/registrarUsuario.php">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Usuario">
-								<input type="text" class="form-control" placeholder="Contraseña">
+								<input type="text" class="form-control" placeholder="Usuario" name="usuario">
+								<input type="text" class="form-control" placeholder="Contraseña" name="clave">
 							</div>
-							<button type="submit" class="btn btn-default">Ingresar</button>
+							<button type="submit" class="btn btn-default" name="ingresar">Ingresar</button>
 						</form>
 					</li>
 					<li><a href="#">Olvide contraseña</a></li>

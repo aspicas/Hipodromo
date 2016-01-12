@@ -6,5 +6,3 @@ update caej set caej_puesto_partida=2,caej_num_ejemplar=2,caej_posicion=2,caej_v
 
 
 select * from product_component_version;
-
-select usua_codigo from usuario where usua_nombre='admin' and usua_clave='admin';
