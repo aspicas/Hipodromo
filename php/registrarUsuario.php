@@ -89,7 +89,7 @@ elseif (isset($_POST['borrar'])) {
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
 	}	
-}/*
+}
 if (isset($_POST['ingresar'])) {
 	try {
 		Connect();
@@ -97,18 +97,31 @@ if (isset($_POST['ingresar'])) {
 		$clave = $_POST["clave"];		
 		
 		if (IsEmpty("select usua_codigo from usuario where usua_nombre='".$usuario."' and usua_clave='".$clave."'") == false) {
-			$rol = Value();
+			$rol = Value("select rol_permiso from usuario,rol,rous where fk_usua=usua_codigo and fk_rol=rol_codigo and usua_nombre='".$usuario."'","ROL_PERMISO");
+			if ($rol == false) {
+				echo "<script type=\"text/javascript\">
+					alert(\"Agregue un rol al usuario\");
+					window.location.href=\"../index.php\"
+				</script>";//*/
+			}
 			session_start();
 			$_SESSION['usuario']  = $usuario;
-			$_SESSION['rol']  = 'verde';
+			$_SESSION['rol']  = $rol;
 		}
-
-		Disconnect();/*
+		Disconnect();
 		echo "<script type=\"text/javascript\">
 					window.location.href=\"../index.php\"
-				</script>";///
+				</script>";//*/
 	} catch (Exception $e) {
 		echo "Message: " .$e->getMessage();
 	}	
+}
+
+if (isset($_POST['salir'])) {
+	session_start();
+	session_destroy();
+	echo "<script type=\"text/javascript\">
+					window.location.href=\"../index.php\"
+				</script>";
 }
 ?>

@@ -1,3 +1,6 @@
+<?php  
+session_start();
+?>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -95,20 +98,36 @@
 
 		<ul class="nav navbar-nav navbar-right">
 			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Iniciar Seccion <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">
-					<li>  
-						<form class="navbar-form navbar-left" role="search" method="post" action="php/registrarUsuario.php">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Usuario" name="usuario">
-								<input type="text" class="form-control" placeholder="Contraseña" name="clave">
-							</div>
-							<button type="submit" class="btn btn-default" name="ingresar">Ingresar</button>
-						</form>
-					</li>
-					<li><a href="#">Olvide contraseña</a></li>
-					<li><a href="registro.php">Registrar</a></li>
-				</ul>
+				<?php 
+					if (isset($_SESSION['usuario']) == null) {
+						echo "
+						<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Iniciar Sesion <span class=\"caret\"></span></a>
+						<ul class=\"dropdown-menu\" role=\"menu\">
+							<li>  
+								<form class=\"navbar-form navbar-left\" role=\"search\" method=\"post\" action=\"php/registrarUsuario.php\">
+									<div class=\"form-group\">
+										<input type=\"text\" class=\"form-control\" placeholder=\"Usuario\" name=\"usuario\" required>
+										<input type=\"password\" class=\"form-control\" placeholder=\"Contraseña\" name=\"clave\" required>
+									</div>
+									<button type=\"submit\" class=\"btn btn-default\" name=\"ingresar\">Ingresar</button>
+								</form>
+							</li>							
+							<li><a href=\"registro.php\">Registrar</a></li>
+						</ul>";
+					}
+					else
+					{
+						echo "
+						<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Bienvenido, ".$_SESSION['usuario']." <span class=\"caret\"></span></a>
+						<ul class=\"dropdown-menu\" role=\"menu\">
+							<li>  
+								<form class=\"navbar-form navbar-left\" role=\"search\" method=\"post\" action=\"php/registrarUsuario.php\">
+									<button type=\"submit\" class=\"btn btn-default\" name=\"salir\">Salir</button>
+								</form>
+							</li>							
+						</ul>";
+					}
+				?>
 			</li>
 		</ul>
     </div>

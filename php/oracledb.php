@@ -198,6 +198,20 @@ function IsEmpty($string)
 	return false;
 }
 
+function Value($string,$value)
+{
+	global $conn;
+	$query = oci_parse($conn, $string);
+	oci_execute($query);
+	$row = oci_fetch_assoc($query);
+	if ($row != false) {		
+		oci_free_statement($query);		
+		return $row[$value];
+	}
+	oci_free_statement($query);
+	return false;
+}
+
 if(isset($_POST['query']))
 {
 	try {

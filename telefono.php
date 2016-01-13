@@ -39,7 +39,7 @@ include 'php/oracledb.php';
 						<option></option>
 						<?php 
 							Connect();
-							DesplegarC1Valores("select tele_codigo, tele_numero from stud order by tele_codigo","TELE_CODIGO","TELE_NUMERO");
+							DesplegarC2Valores("select tele_codigo, tele_numero from stud order by tele_codigo","TELE_CODIGO","TELE_NUMERO");
 							Disconnect();
 						?>
 					</select>
@@ -48,7 +48,7 @@ include 'php/oracledb.php';
 			<div class="form-group">
 				<label class="crear modificar col-sm-3 control-label">Numero</label>
 				<div class="col-sm-9">
-					<input class="crear modificar req" type="text" class="form-control" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" maxlength="7" name="telefono" required>
+					<input class="crear modificar req" type="text" class="form-control" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" maxlength="11" name="telefono" required>
 				</div>
 			</div>			
 			<div class="form-group">
