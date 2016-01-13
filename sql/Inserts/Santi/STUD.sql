@@ -120,6 +120,3 @@ INSERT INTO STUD VALUES (SQ_STUD_codigo.nextval,'LEO-FER',to_date('17/10/2005','
 INSERT INTO STUD VALUES (SQ_STUD_codigo.nextval,'MY SOCIETY',to_date('07/06/2007','dd-mm-yyyy'));
 INSERT INTO STUD VALUES (SQ_STUD_codigo.nextval,'PERIQUITO',to_date('12/04/2013','dd-mm-yyyy'));
 INSERT INTO STUD VALUES (SQ_STUD_codigo.nextval,'THE ACE',to_date('08/12/2001','dd-mm-yyyy'));
-
-
-delete from stud;

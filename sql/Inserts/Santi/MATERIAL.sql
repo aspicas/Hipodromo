@@ -18,3 +18,4 @@ INSERT INTO MATERIAL VALUES (SQ_MATE_codigo.nextval,'Lana',(select PIST_codigo f
 INSERT INTO MATERIAL VALUES (SQ_MATE_codigo.nextval,'Vidrio',(select PIST_codigo from PISTA where pist_longitud=400));
 INSERT INTO MATERIAL VALUES (SQ_MATE_codigo.nextval,'Plastico',(select PIST_codigo from PISTA where pist_longitud=400));
 INSERT INTO MATERIAL VALUES (SQ_MATE_codigo.nextval,'Lamar',(select PIST_codigo from PISTA where pist_longitud=400));
+
