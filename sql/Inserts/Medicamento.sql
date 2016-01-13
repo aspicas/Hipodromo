@@ -1,0 +1,2 @@
+INSERT INTO MEDICAMENTO VALUES(SQ_MEDI_codigo.nextval,'Buta');
+INSERT INTO MEDICAMENTO VALUES(SQ_MEDI_codigo.nextval,'Lasix');

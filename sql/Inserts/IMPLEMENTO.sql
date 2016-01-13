@@ -1,0 +1,12 @@
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Gríngolas',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Lengua Amarrada',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Bozal',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Bozal Lenguero',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Bozal Blanco',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Martingala Pretal',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Guayo',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Vendas',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Orejas Tapadas',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Látigo',null);
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Herradura Aluminio','CC');
+INSERT INTO IMPLEMENTO  VALUES(SQ_IMPL_codigo.nextval,'Herradura Aluminio','CH');
