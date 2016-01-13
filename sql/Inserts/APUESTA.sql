@@ -12,3 +12,4 @@ INSERT INTO APUESTA VALUES(SQ_APUE_codigo.nextval,'Exacta Combinada',400,'Dos ca
 INSERT INTO APUESTA VALUES(SQ_APUE_codigo.nextval,'Doble Perfecta',2500000,'Las carreras las escoge el hipodromo,normalmente son dos carreras consecutivas.Gana si el caballos llega como se jugó');
 INSERT INTO APUESTA VALUES(SQ_APUE_codigo.nextval,'Pool de Cuatro',50000000,'Cuatro carreras consecutivas ganando');
 
+alter table apuesta modify apue_regla VARCHAR2(150);
