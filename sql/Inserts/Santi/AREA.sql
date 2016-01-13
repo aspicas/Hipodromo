@@ -1,20 +1,8 @@
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,17,'Tribuna','Capacidad para 200 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,13,'Palco','Capacidad para 50 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,9,'Gradas.','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,6,'Palco','Capacidad para 50 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,6,'Palco','Capacidad para 50 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,1,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,8,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,16,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,10,'Gradas,','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,15,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,4,'Tribuna.','Capacidad para 200 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,16,'Tribuna','Capacidad para 200 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,2,'Palco','Capacidad para 50 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,15,'Tribuna','Capacidad para 200 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,8,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,14,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,16,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,9,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,7,'Gradas','Capacidad para 300 personas');
-INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,12,'Gradas','Capacidad para 300 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,500,'Tribuna','Capacidad para 500 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,50,'Palco','Capacidad para 50 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,1700,'Gradas.','Capacidad para 1700 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,800,'Mezzanina','Capacidad para 800 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,800,'Circulo de ganadores','Capacidad para 800 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,800,'Playa','Capacidad para 800 personas');
+INSERT INTO AREA VALUES (SQ_AREA_codigo.nextval,800,'Butaca','Capacidad para 800 personas');
+
