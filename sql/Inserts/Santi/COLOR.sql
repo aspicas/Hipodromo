@@ -8,5 +8,8 @@ INSERT INTO COLOR VALUES (SQ_COLO_codigo.nextval,'Blanco');
 INSERT INTO COLOR VALUES (SQ_COLO_codigo.nextval,'Amarillo');
 INSERT INTO COLOR VALUES (SQ_COLO_codigo.nextval,'Gris');
 INSERT INTO COLOR VALUES (SQ_COLO_codigo.nextval,'Verde');
+INSERT INTO COLOR VALUES (SQ_COLO_codigo.nextval,'Fucsia');
+INSERT INTO COLOR VALUES (SQ_COLO_codigo.nextval,'Plata');
+
 
 
