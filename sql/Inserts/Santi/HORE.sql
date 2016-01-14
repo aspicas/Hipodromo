@@ -1,6 +1,0 @@
-INSERT INTO HORE VALUES (SQ_HORE_codigo.nextval,(select REST_codigo from RESTAURANTE where REST_nombre='Budare'),(select HORA_codigo from HORA where HORA_inicio='13:00:00' and HORA_dia='sabado'));
-INSERT INTO HORE VALUES (SQ_HORE_codigo.nextval,(select REST_codigo from RESTAURANTE where REST_nombre='Wendys'),(select HORA_codigo from HORA where HORA_inicio='15:00:00' and HORA_dia='domingo'));
-INSERT INTO HORE VALUES (SQ_HORE_codigo.nextval,(select REST_codigo from RESTAURANTE where REST_nombre='Fridays'),(select HORA_codigo from HORA where HORA_inicio='12:30:00' and HORA_dia='sabado'));
-INSERT INTO HORE VALUES (SQ_HORE_codigo.nextval,(select REST_codigo from RESTAURANTE where REST_nombre='Danubio'),(select HORA_codigo from HORA where HORA_inicio='15:00:00' and HORA_dia='domingo'));
-INSERT INTO HORE VALUES (SQ_HORE_codigo.nextval,(select REST_codigo from RESTAURANTE where REST_nombre='Buono'),(select HORA_codigo from HORA where HORA_inicio='13:00:00' and HORA_dia='sabado'));
-INSERT INTO HORE VALUES (SQ_HORE_codigo.nextval,(select REST_codigo from RESTAURANTE where REST_nombre='Cookies'),(select HORA_codigo from HORA where HORA_inicio='12:30:00' and HORA_dia='domingo'));
