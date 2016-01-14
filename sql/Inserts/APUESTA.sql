@@ -1,4 +1,4 @@
-INSERT INTO APUESTA VALUES(SQ_APUE_codigo.nextval,'el 5 y 6 ',50000,'Vale par las seis ultimas carreras del viernes y domingo ');
+INSERT INTO APUESTA VALUES(SQ_APUE_codigo.nextval,'el 5 y 6',50000,'Vale par las seis ultimas carreras del viernes y domingo ');
 INSERT INTO APUESTA VALUES(SQ_APUE_codigo.nextval,'5 y 6 Electrónico',50000,'Es valido para las seis últimas carreras de cada programa,se escoge cualquier numero de caballos, se van multiplicando y luego me multiplica por 100');
 INSERT INTO APUESTA VALUES(SQ_APUE_codigo.nextval,'Ganador',500,'5 mínimo por cada bs 100 jugados a cada caballo ');
 INSERT INTO APUESTA VALUES(SQ_APUE_codigo.nextval,'Placé',500,'Se juega cuando hay mas de diez caballo en la carrera , paga el primero o el segundo ');
