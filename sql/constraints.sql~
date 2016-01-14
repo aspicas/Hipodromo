@@ -129,7 +129,7 @@ alter table TAQUILLA add constraint CH_taqu_tipo check (TAQU_tipo IN ('apuesta',
 alter table IMPLEMENTO add constraint CH_impl_tipo check (IMPL_tipo IN ('CC','CH'));
 alter table ROL add constraint CH_rol_permiso check (ROL_permiso IN ('B', 'L', 'E', 'M', 'BL', 'BE', 'BM', 'LE', 'LM', 'EM', 'BLE', 'BLM', 'BEM', 'LEM', 'BLEM'));
 alter table PESO add constraint CH_peso_tipo check (PESO_tipo IN ('ejemplar', 'jinete'));
-alter table ejemplar add constraint CH_ejem_sexo check (ejem_sexo IN ('macho','hembra'));
+alter table ejemplar add constraint CH_ejem_sexo check (ejem_sexo IN ('macho','hembra');
 
 /*Unique*/
 alter table caballeriza add constraint UN_caba_numero unique (caba_numero);

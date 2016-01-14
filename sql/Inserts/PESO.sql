@@ -1,1521 +1,318 @@
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,355,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,351,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,358,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,358,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nena do Eume')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,361,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,365,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,356,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,361,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,365,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Time Love')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,353,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,350,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,350,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,354,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,367,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,51.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yarali')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,420,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,415,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,421,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,425,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,419,'Ejempla',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Macuteña')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,418,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,414,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,431,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,430,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rasante')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,376,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,369,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,370,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,366,'Ejemplar ',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,362,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval8,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera1') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Linda Annarella')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,000,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera2') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great ynes ')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera2') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great ynes ')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,402,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera2') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ninja')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,405,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera2') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ninja')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera2') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ninja')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera2') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ninja')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,378,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='cenicienta')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,398,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='cenicienta')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,380,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='cenicienta')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='cenicienta')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='cenicienta')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='cenicienta')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,379,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Anapaula')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Anapaula')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,411,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Morocha')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Morocha')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,427,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sinaloa')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,427,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sinaloa')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,440,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sinaloa')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,437,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sinaloa')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sinaloa')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sinaloa')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sinaloa')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera3') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sinaloa')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,406,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,407,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,400,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,4009,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,398,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='A rod parts')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,425,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,421,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,000,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,420,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Speed Alexx')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,432,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,434,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,433,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,439,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,425,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Furat')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,470,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,474,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,464,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,460,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,466,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Devil Runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,395,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,386,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,395,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,397,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,387,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Champion gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,399,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,397,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,498,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,402,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,413,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera4') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My big bro')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,443,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,435,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,437,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,438,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,000,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Cumaco')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,477,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,470,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,479,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,476,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,483,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Neymar jr')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,244,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,322,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,448,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,582,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,654,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Wild honey')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,656,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,735,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,907,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,945,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,973,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,51.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='General war')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,411,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,40,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,413,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,409,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,406,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,57.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Leon king')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,427,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,432,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,426,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,418,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo adib')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,465,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,468,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,459,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,451,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,445,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,57,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Guayamure')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera5') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,417,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,431,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,428,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rancho Papelon')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,445,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,000,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,453,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,445,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,433,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,555,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='the clown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,437,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Galactico')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,453,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Galactico')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Galactico')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Galactico')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,477,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,473,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,371,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,481,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,473,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great monster')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,414,'ejempar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,412,'ejempar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejempar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,425,'ejempar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,424,'ejempar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carjodowami sole')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,436,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,421,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,430,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Otro luis')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,502,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,506,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,501,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,498,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,497,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='SHA DERBY')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,460,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,449,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,454,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,445,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,429,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lord kelvin')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,432,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Distinguido')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,442,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Distinguido')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,441,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Distinguido')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,433,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Distinguido')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Distinguido')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Distinguido')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Distinguido')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Distinguido')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,413,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,399,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,399,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,385,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,393,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera6') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sir luck')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,488,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,482,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,487,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,488,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,487,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mendel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,451,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,449,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,455,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,443,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,443,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,50,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Makunaima')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,403,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,405,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,412,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,406,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,399,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,57.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,57.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Charlie Brown')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,419,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,413,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,420,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,428,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,412,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Moro plateado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,482,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,486,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,487,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,484,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,478,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El supi')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,435,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,436,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,437,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,438,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,444,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The angel cloak')));
-			
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,386,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,394,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,402,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,409,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,404,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oro blindado')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,489,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,483,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,479,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,493,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,501,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera7') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Aly khan forever')));
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great man')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The great man')));
-						
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,420,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Big thunder')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Big thunder')));
-	
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,368,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeño isaac')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,367,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeño isaac')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,374,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeño isaac')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,385,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeño isaac')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeño isaac')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeño isaac')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeño isaac')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeño isaac')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,392,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oceanic runner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera8') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Oceanic runner')));
-						
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,390,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,383,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,388,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,385,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,378,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,4.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='linda monica')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,421,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,419,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,417,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,419,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,420,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marthadaniela')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,375,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,370,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,373,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,374,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,376,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,66.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna del Paso')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,397,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,398,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,391,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,405,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,400,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Andi star')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,426,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,436,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,432,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,427,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,72.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ana Barbara')));
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,439,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,437,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,429,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,431,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,424,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amazing shine')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,409,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,404,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,405,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,405,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,404,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera9') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Camila Star')));
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,433,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My lord rebel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,418,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My lord rebel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,419,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My lord rebel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My lord rebel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My lord rebel')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My lord rebel')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,394,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,379,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,378,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,375,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,375,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran everth')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,399,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,395,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,384,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,385,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,387,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='chanteiro do eume')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,440,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,439,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,442,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,434,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,426,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Patriota')));
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,o,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nifantorapas')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,444,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nifantorapas')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,437,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nifantorapas')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,432,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nifantorapas')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nifantorapas')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nifantorapas')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nifantorapas')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nifantorapas')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,435,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mamaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,443,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,439,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,434,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,435,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mmaosa Winner')));
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,446,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,444,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,443,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,450,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,441,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera10') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='white Gold')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,400,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,400,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,404,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,401,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,405,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='zurich')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,360,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,368,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,374,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,397,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,372,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Drava')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,475,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,454,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,457,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,457,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,437,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52,5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,51.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Kaori')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,387,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,385,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,399,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,406,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,401,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La invisible'))	             ;
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,417,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,424,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,431,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,432,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,421,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Orianamercedes')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,463,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,458,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,464,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,467,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,459,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,551,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='miss jos')));
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,427,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,419,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,437,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,435,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,51.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Divina Madam')));
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,430,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,423,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,421,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,421,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,414,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,57.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Dixis Mariela')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,386,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,392,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,385,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,387,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,388,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.3,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Misisissippi queen')));
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,420,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,433,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,436,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,433,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,435,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.4,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,56,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss America')));
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,416,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,415,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,434,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,429,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,429,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,50.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.2,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.7,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.8,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Borgoña')));
-							
-							
-							
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,367,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,360,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,374,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,370,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,371,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.6,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,52.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,54.9,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Yara')));
-							                ;
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,374,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,371,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,379,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,375,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,374,'ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,55.1,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,51.5,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES	(SQ_PESO_codigo.nextval,53,'jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera11') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi patricia')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,438,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,433,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,50,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Djokovic')));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,443,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,440,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable'))); 
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,443,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,447,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,442,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable')));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable' )));                       
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,49.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Inimitable'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania' )));     
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania' ))); 
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,440,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania' ))); 
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,450,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania'   )));  
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania'   )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania'  )));                        
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania'  )));                        
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania'  )));                        
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania' )));                         
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Messi Mania' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'Ejempla',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo' ))); 
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,441,'Ejempla',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,433,'Ejempla',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,432,'Ejempla',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,436,'Ejempla',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera12') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Limardo' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,355,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Loving Face' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,345,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Loving Face' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,353,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Loving Face'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Loving Face'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Loving Face'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Loving Face'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,415,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Maria Carmela'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,408,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Maria Carmela'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Maria Carmela' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera13') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Maria Carmela')));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,416,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Hispaniola' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,418,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Hispaniola' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,418,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Hispaniola'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,418,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Hispaniola'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Hispaniola'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Hispaniola'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Hispaniola'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Hispaniola'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,409,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,408,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,400,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Siempre Guerrera'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,473,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,490,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,469,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,497,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,498,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Classical Love'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,428,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,434,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,432,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,429,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,432,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Mar'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,398,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,404,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,407,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,398,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,408,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Katsumi'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,400,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,398,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,400,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,397,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,405,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Rain Blood'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,428,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,420,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,428,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,424,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,424,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera14') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Jack'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,434,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,442,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Casigua'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,468,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,468,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,469,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,464,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,475,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Lady Luck'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,477,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,469,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,478,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,466,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,468,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Reina Cristal'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,443,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,440,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,458,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,449,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Extrovertida'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,438,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,441,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,432,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,432,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,436,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Invasora'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,394,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,389,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,392,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,388,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,381,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera15') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Girlfriend'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,442,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,452,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,450,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Nexus Prime'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,438,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,450,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ap Angel'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,473,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,467,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,464,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,468,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,464,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Northern Beat'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,436,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,427,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='An Serafini'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,447,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,449,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,442,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,446,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Roys Revenge'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,449,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,447,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,442,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,441,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',    (select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera16') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Lucas'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,473,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,481,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,448,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,467,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Catire Duran'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,450,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mister Champ'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,477,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mister Champ'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,439,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mister Champ' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mister Champ' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mister Champ')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mister Champ' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,454,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Se Siente Portugal' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Se Siente Portugal'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,480,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mister Duban'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mister Duban' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,475,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Destrutor'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,453,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Destrutor'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Destrutor' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Destrutor')));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,465,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vencedor' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vencedor'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,402,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,394,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,382,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,394,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,377,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Cuatro Ge'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,419,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,412,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,50,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,51.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera17') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Abuelo Miguel'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,453,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,453,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,352,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,430,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,430,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Hole In One'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,442,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,407,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,397,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,394,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Plata Winner'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,404,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi Niña Buena'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,395,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi Niña Buena'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,386,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi Niña Buena' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi Niña Buena' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,50.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi Niña Buena')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,49.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mi Niña Buena' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,467,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,467,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,463,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,463,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,463,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mestalla'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,335,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,325,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,0,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,324,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,321,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,49.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Digest'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,366,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,367,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,362,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,361,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,361,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Fenix'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,433,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,431,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,448,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,425,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,420,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La de Parauleta'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,400,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,399,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,398,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,407,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,403,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='My Own Monty'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,403,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Salma Princess'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,393,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Salma Princess'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Salma Princess' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera18') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Salma Princess')));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,488,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Presumido' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,485,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Presumido' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Presumido'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Presumido'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,416,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Model'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,413,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Model'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Model' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,419,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Model' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Model' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Model')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Model' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Model'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,394,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Jorge' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Don Jorge'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,416,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Satanta'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,412,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Satanta'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,417,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Satanta' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Satanta' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Satanta' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Satanta')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Satanta' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Satanta'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,441,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,434,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,436,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,428,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='The Great Toy'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,486,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Four Strokes'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,482,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Four Strokes'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Four Strokes' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Four Strokes')));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,486,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Shore Runner' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,482,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Shore Runner' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Shore Runner'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera19') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Shore Runner'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,414,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,412,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,418,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,416,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,414,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='King Ottawa'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,451,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,426,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,438,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,439,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Harvard'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,407,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,410,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,405,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,58.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Popoly Parts'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,392,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,407,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,410,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Comandante'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,487,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,505,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,495,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,505,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,502,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Bastivan'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,478,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,488,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,482,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,485,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,484,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Vettel'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,447,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,452,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,464,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,470,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,462,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Gran Guaica'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,449,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,450,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,438,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,438,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera20') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='El Parrandero'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,350,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,345,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,338,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,340,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,341,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,51.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Special Quovis'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,462,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ami Ami' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,466,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ami Ami' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ami Ami'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Ami Ami'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,426,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,416,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,430,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,438,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,453,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juana de Arco'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,376,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,393,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,385,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,402,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,386,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Mia Sandra'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,453,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amberes'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,446,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amberes'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,456,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amberes' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,459,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amberes' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amberes' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amberes')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amberes' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Amberes'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,393,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,395,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,377,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,377,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,373,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Winning Hope'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,350,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,341,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,343,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,343,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,344,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera21') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='India Rosa'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,425,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,422,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,423,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,423,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,423,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,51.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Marbella'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,441,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,433,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,466,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bella Andrea'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,374,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,372,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,372,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,368,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,374,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Carcajada'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,420,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,428,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,440,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,442,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,431,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Black Mamba'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,394,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,392,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,396,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,388,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,383,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Bolera'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,394,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,393,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,391,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,386,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,392,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Luna de Abril'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,388,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,397,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,386,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,384,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,386,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Sweet Valeria'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,392,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,407,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,404,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,401,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Juliana'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,358,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,370,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,403,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,356,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,375,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Miss Vale Vale'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,460,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Love Elysees'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,465,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Love Elysees'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,469,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Love Elysees' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Love Elysees' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Love Elysees')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Love Elysees' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,435,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,454,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,449,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,451,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,58.3,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='Pequeña Bea'  )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,434,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,446,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,444,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,447,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,460,'Ejemplar',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana' )));
-
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.4,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana')));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana' )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.9,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana'  )));
-INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'Jinete',(select CAEJ_codigo from CAEJ WHERE FK_CARR=(select CARR_CODIGO FROM CARRERA WHERE CARR_nombre = 'Carrera22') AND FK_EJEM=(SELECT EJEM_codigo FROM EJEMPLAR WHERE EJEM_nombre='La Gabana'  )));
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,355,'ejemplar',1);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,351,'ejemplar',2);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,358,'ejemplar',3);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,358,'ejemplar',4);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,361,'ejemplar',5);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,365,'ejemplar',6);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,356,'ejemplar',7);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,361,'ejemplar',8);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,365,'ejemplar',9);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,353,'ejemplar',10);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,350,'ejemplar',11);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,350,'ejemplar',12);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,354,'ejemplar',13);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,367,'ejemplar',14);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,420,'ejemplar',15);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,415,'ejemplar',16);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,421,'ejemplar',17);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,425,'ejemplar',18);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,419,'ejemplar',19);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'ejemplar',20);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,418,'ejemplar',21);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,414,'ejemplar',22);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,431,'ejemplar',23);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,430,'ejemplar',24);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,376,'ejemplar',25);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,369,'ejemplar',26);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,370,'ejemplar',27);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,366,'ejemplar',28);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,362,'ejemplar',29);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,000,'ejemplar',30);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,402,'ejemplar',31);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,405,'ejemplar',32);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,378,'ejemplar',33);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,398,'ejemplar',34);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,380,'ejemplar',35);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,379,'ejemplar',36);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'ejemplar',37);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,427,'ejemplar',38);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,427,'ejemplar',39);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,440,'ejemplar',40);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'ejemplar',41);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'ejemplar',42);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,407,'ejemplar',43);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,400,'ejemplar',44);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,4009,'ejemplar',45);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,398,'ejemplar',46);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,425,'ejemplar',47);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,421,'ejemplar',48);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,000,'ejemplar',49);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,420,'ejemplar',50);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,432,'ejemplar',51);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,434,'ejemplar',52);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,433,'ejemplar',53);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,439,'ejemplar',54);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,425,'ejemplar',55);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,470,'ejemplar',56);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,474,'ejemplar',57);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,464,'ejemplar',58);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,460,'ejemplar',59);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,466,'ejemplar',60);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,395,'ejemplar',61);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,386,'ejemplar',62);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,395,'ejemplar',63);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,397,'ejemplar',64);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,387,'ejemplar',65);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,399,'ejemplar',66);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,397,'ejemplar',67);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,498,'ejemplar',68);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,402,'ejemplar',69);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,413,'ejemplar',70);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,443,'ejemplar',71);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,435,'ejemplar',72);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'ejemplar',73);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,438,'ejemplar',74);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,000,'ejemplar',75);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,477,'ejemplar',76);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,470,'ejemplar',77);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,479,'ejemplar',78);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,476,'ejemplar',79);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,483,'ejemplar',80);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,244,'ejemplar',81);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,322,'ejemplar',82);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,448,'ejemplar',83);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,582,'ejemplar',84);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,654,'ejemplar',85);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,656,'ejemplar',86);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,735,'ejemplar',87);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,907,'ejemplar',88);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,945,'ejemplar',89);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,973,'ejemplar',90);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,411,'ejemplar',91);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,40,'ejemplar',92);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,413,'ejemplar',93);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,409,'ejemplar',94);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,406,'ejemplar',95);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,427,'ejemplar',96);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,432,'ejemplar',97);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,426,'ejemplar',98);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,418,'ejemplar',99);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,423,'ejemplar',100);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,465,'ejemplar',101);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,468,'ejemplar',102);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,459,'ejemplar',103);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,451,'ejemplar',104);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'ejemplar',105);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,423,'ejemplar',106);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,423,'ejemplar',107);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,417,'ejemplar',108);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,431,'ejemplar',109);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,428,'ejemplar',110);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'ejemplar',111);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,000,'ejemplar',112);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,453,'ejemplar',113);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'ejemplar',114);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,433,'ejemplar',115);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,437,'ejemplar',116);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,453,'ejemplar',117);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,477,'ejemplar',118);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,473,'ejemplar',119);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,371,'ejemplar',120);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,481,'ejemplar',121);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,473,'ejemplar',122);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,436,'ejemplar',123);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,423,'ejemplar',124);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,421,'ejemplar',125);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,423,'ejemplar',126);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,430,'ejemplar',127);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,502,'ejemplar',128);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,506,'ejemplar',129);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,501,'ejemplar',130);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,498,'ejemplar',131);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,497,'ejemplar',132);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,460,'ejemplar',133);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,449,'ejemplar',134);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,454,'ejemplar',135);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,445,'ejemplar',136);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,429,'ejemplar',137);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,432,'ejemplar',138);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,442,'ejemplar',139);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,441,'ejemplar',140);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,433,'ejemplar',141);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,413,'ejemplar',142);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,399,'ejemplar',143);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,399,'ejemplar',144);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,385,'ejemplar',145);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,393,'ejemplar',146);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,488,'ejemplar',147);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,482,'ejemplar',148);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,487,'ejemplar',149);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,488,'ejemplar',150);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,487,'ejemplar',151);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,451,'ejemplar',152);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,449,'ejemplar',153);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,455,'ejemplar',154);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,443,'ejemplar',155);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,443,'ejemplar',156);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,403,'ejemplar',157);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,405,'ejemplar',158);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,412,'ejemplar',159);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'jinete',1);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.8,'jinete',2);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'jinete',3);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'jinete',4);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.7,'jinete',5);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'jinete',6);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'jinete',7);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'jinete',8);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.8,'jinete',9);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'jinete',10);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',11);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',12);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',13);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',14);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,51.4,'jinete',15);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'jinete',16);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'jinete',17);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'jinete',18);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'jinete',19);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'jinete',20);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',21);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',22);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'jinete',23);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'jinete',24);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'jinete',25);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.4,'jinete',26);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'jinete',27);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval8,53,'jinete',28);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'jinete',29);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'jinete',30);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.4,'jinete',31);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',32);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.6,'jinete',33);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'jinete',34);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'jinete',35);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'jinete',36);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'jinete',37);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.6,'jinete',38);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'jinete',39);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'jinete',40);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'jinete',41);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.4,'jinete',42);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'jinete',43);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'jinete',44);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',45);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'jinete',46);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'jinete',47);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',48);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.4,'jinete',49);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'jinete',50);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.4,'jinete',51);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.8,'jinete',52);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'jinete',53);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.2,'jinete',54);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',55);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.5,'jinete',56);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'jinete',57);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'jinete',58);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',59);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'jinete',60);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.6,'jinete',61);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'jinete',62);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'jinete',63);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.9,'jinete',64);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'jinete',65);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',66);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'jinete',67);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'jinete',68);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.8,'jinete',69);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'jinete',70);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.8,'jinete',71);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',72);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.6,'jinete',73);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.2,'jinete',74);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'jinete',75);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'jinete',76);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.8,'jinete',77);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.1,'jinete',78);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.7,'jinete',79);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'jinete',80);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.5,'jinete',81);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'jinete',82);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',83);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.3,'jinete',84);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52,'jinete',85);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56,'jinete',86);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',87);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',88);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,51.1,'jinete',89);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.7,'jinete',90);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.5,'jinete',91);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.3,'jinete',92);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,57.4,'jinete',93);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.3,'jinete',94);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.7,'jinete',95);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.4,'jinete',96);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.2,'jinete',97);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',98);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'jinete',99);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'jinete',100);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'jinete',101);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.2,'jinete',102);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',103);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,57,'jinete',104);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'jinete',105);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.4,'jinete',106);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'jinete',107);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.2,'jinete',108);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'jinete',109);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.1,'jinete',110);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.3,'jinete',111);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53,'jinete',112);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',113);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',114);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',115);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,555,'jinete',116);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.1,'jinete',117);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',118);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'jinete',119);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',120);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'jinete',121);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',122);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.3,'jinete',123);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',124);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.1,'jinete',125);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'jinete',126);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.2,'jinete',127);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',128);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.3,'jinete',129);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',130);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.2,'jinete',131);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.8,'jinete',132);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'jinete',133);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.9,'jinete',134);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.7,'jinete',135);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.1,'jinete',136);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.6,'jinete',137);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.8,'jinete',138);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.5,'jinete',139);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54,'jinete',140);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.4,'jinete',141);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'jinete',142);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.9,'jinete',143);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.5,'jinete',144);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',145);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',146);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.2,'jinete',147);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,56.5,'jinete',148);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.2,'jinete',149);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'jinete',150);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.2,'jinete',151);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.3,'jinete',152);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,52.2,'jinete',153);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55.5,'jinete',154);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.6,'jinete',155);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,54.5,'jinete',156);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,53.9,'jinete',157);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,55,'jinete',158);
+INSERT INTO PESO VALUES(SQ_PESO_codigo.nextval,50,'jinete',159);
