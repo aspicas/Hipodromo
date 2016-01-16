@@ -3393,12 +3393,12 @@ INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'1-3',67.3,33,(select POST_codig
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'4-3',71,34,(select POST_codigo from POSTE WHERE   POST_metro=1200));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'4-9',69.2,35,(select POST_codigo from POSTE where POST_metro=1200));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'4-3',67.1,36,(select POST_codigo from POSTE where POST_metro=1200));
-INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'8-8',88.3,37,(select POST_todigo from  POSTE where POST_metro=1200));
+INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'8-8',88.3,37,(select POST_codigo from  POSTE where POST_metro=1200));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'5-2',88.3,38,(select POST_codigo from POSTE where POST_metro=1200));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'8-5',88,39,(select POST_codigo from POSTE where POST_metro=1200));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'6-4',87.1,40,(select POST_codigo from POSTE where POST_metro=1200));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'6-7',88,41,(select POST_codigo from POSTE where   POST_metro=1200));
-INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'2-4',8.1,42,(select POCstcodigo from POSTE where  POST_metro=1200));
+INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'2-4',8.1,42,(select POST_codigo from POSTE where  POST_metro=1200));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'8-6',73.1,43,(select POST_codigo from POSTE where POST_metro=1800));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'5-5',80.3,44,(select POST_codigo from POSTE where POST_metro=1800));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'7-4',116.4,45,(select POST_codigo from POSTE where POST_metro=1800 ));
@@ -3412,8 +3412,8 @@ INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'8-6',74.4,52,(select POST_codig
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'0-9',80.3,53,(select POST_codigo from POSTE where POST_metro=1800 ));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'6-6',80.2,54,(select POST_codigo from POSTE where POST_metro=1800 ));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'6-6',101.13,55,(select POST_codigo from POSTE WHERE POST_metro=1800 ));
-INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'5-6',118.2.2,56,(select POST_codigo from POSTE where POST_metro=1800));
-INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'6-6',101.1,57,(select POST_codigo from Poca  where POST_metro=1800) );
+INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'5-6',118.2,56,(select POST_codigo from POSTE where POST_metro=1800));
+INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'6-6',101.1,57,(select POST_codigo from Poste  where POST_metro=1800) );
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'3-3',67.1,58,(select POST_codigo from POSTE where POST_metro=1800));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'5-5',80.1,59,(select POST_codigo from POSTE where POST_metro=1800));
 INSERT INTO POCA  VALUES(SQ_POCA_codigo.nextval,'6-3',73.2,60,(select POST_codigo from POSTE where POST_metro=1800));
