@@ -43,7 +43,13 @@ include 'php/oracledb.php';
 			<div class="form-group">
 				<label for="pelaje" class="col-sm-3 control-label">Pelaje *</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" name="pelaje" placeholder="Pelaje" required>
+					<select name="pelaje" required>
+							<option></option>
+							<option value="C">Castaño</option>
+							<option value="A">Alazan</option>
+							<option value="Z">Zaino</option>
+							<option value="T">Tordillo</option>
+						</select>
 				</div>
 			</div>
 			<div class="form-group">
@@ -56,10 +62,10 @@ include 'php/oracledb.php';
 				<label for="sexo" class="col-sm-3 control-label">Sexo *</label>
 				<div class="col-sm-9">
 					<label class="radio-inline">
-						<input type="radio" name="sexo" value="macho" id="macho" required> Macho							
+						<input type="radio" name="sexo" value="C" id="macho" required> Caballo							
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="sexo" value="hembra" id="hembra" required> Hembra
+						<input type="radio" name="sexo" value="Y" id="hembra" required> Yegua
 					</label>					
 				</div>
 			</div>
@@ -81,7 +87,7 @@ include 'php/oracledb.php';
 					<!--<input type="text" class="form-control" name="padre" placeholder="Padre">-->
 					<?php 
 						Connect();
-						DesplegarPadre("select ejem_codigo, ejem_nombre from ejemplar where ejem_sexo='macho'");
+						DesplegarPadre("select ejem_codigo, ejem_nombre from ejemplar where ejem_sexo='C'");
 						Disconnect();
 					?>
 				</div>
@@ -92,7 +98,7 @@ include 'php/oracledb.php';
 					<!--<input type="text" class="form-control" name="madre" placeholder="Madre">-->
 					<?php
 						Connect();
-						DesplegarMadre("select ejem_codigo, ejem_nombre from ejemplar where ejem_sexo='hembra'");
+						DesplegarMadre("select ejem_codigo, ejem_nombre from ejemplar where ejem_sexo='Y'");
 						Disconnect();
 					?>
 				</div>

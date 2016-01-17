@@ -39,7 +39,7 @@ include 'php/oracledb.php';
 						<option></option>
 						<?php 
 							Connect();
-							DesplegarC2Valores("select tele_codigo, tele_numero from stud order by tele_codigo","TELE_CODIGO","TELE_NUMERO");
+							DesplegarC2Valores("select tele_codigo, tele_numero from telefono order by tele_codigo","TELE_CODIGO","TELE_NUMERO");
 							Disconnect();
 						?>
 					</select>

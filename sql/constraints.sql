@@ -119,7 +119,7 @@ alter table PESO add constraint FK_caej_peso foreign key (FK_CAEJ) references CA
 /*Checks*/
 alter table HORA add constraint CH_hora_dia check (HORA_dia IN ('viernes','sabado','domingo'));
 alter table AREA add constraint CH_area_tipo check (AREA_tipo IN ('paddock','circulo de ganadores','grada central','tribuna','estacionamiento','butaca','playa','pasillo','palco'));
-alter table CARRERA add constraint CH_carr_tipo check (CARR_tipo IN ('clasico','normal','copa'));
+alter table CARRERA add constraint CH_carr_categoria check (CARR_categoria IN ('clasico','normal','copa'));
 alter table LUGAR add constraint CH_luga_tipo check (LUGA_tipo IN ('pais','estado','municipio','parroquia'));
 alter table ARTA add constraint CH_arta_puerta check (ARTA_puerta IN ('A','B','C','D','E','F'));
 alter table PISO add constraint CH_piso_tipo check (PISO_tipo IN ('nivel 1','nivel 2','mezzanina'));

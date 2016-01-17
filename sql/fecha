@@ -1,0 +1,15 @@
+select trunc(months_between(sysdate, to_date(clie_fecha_nacimiento,'dd/mm/yyyy'))/12) from clientes  
+
+SELECT trunc((SYSDATE - to_date('08/08/1985','dd/mm/rrrr'))/365,0) FROM dual
+
+SELECT trunc((SYSDATE - to_date(ejem_fecha_nac,'dd/mm/rrrr'))/365,0), ejem_nombre FROM ejemplar;
+
+select carr_nombre as Carrera,carr_tipo as Tipo,carr_fecha as Fecha,carr_num_carrera as NC,carr_lote as Lote,carr_distancia as Distancia,carr_variante as Variante,carr_categoria as Categoria,hora_inicio as Hora,hora_dia as Dia,caej_num_llamado as Llamado,caej_num_ejemplar as NumEjemplar,
+E.ejem_nombre as Ejemplar,stud_nombre as Stud,E.ejem_pelaje as Pelaje,trunc((SYSDATE - to_date(E.ejem_fecha_nac,'dd/mm/rrrr'))/365,0) as Edad,jine_nombre as Jinete,PEJ.peso_peso as JPeso,impl_tipo as Implemento,caej_puesto_partida as Partida,
+entr_nombre as Entrenador, PA.ejem_nombre as Padre, MA.ejem_nombre as Madre, E.ejem_sexo, medi_nombre Medicamento
+
+from carrera C, hora H, caej CA, ejemplar E, prst PR, stud S, jinete J,peso PEJ,implemento,imca IMC,puesto PU,caballeriza CAB,entrenador ENT, ejemplar PA, ejemplar MA, came CAM, medicamento
+
+where C.fk_hora=hora_codigo and CA.fk_carr=C.carr_codigo and CA.fk_ejem=E.ejem_codigo and PR.fk_ejem=E.ejem_codigo and PR.fk_stud=stud_codigo and CA.fk_jine=jine_codigo 
+and PEJ.fk_caej=caej_codigo and PEJ.peso_tipo='jinete' and IMC.fk_caej=caej_codigo and IMC.fk_impl=impl_codigo and E.fk_pues=pues_codigo and PU.fk_caba=caba_codigo and CAB.fk_entr=entr_codigo
+and E.fk_ejem_p=PA.ejem_codigo and E.fk_ejem_m=MA.ejem_codigo and CAM.fk_caej=caej_codigo and CAM.fk_medi=medi_codigo and carr_nombre='Carrera2';
