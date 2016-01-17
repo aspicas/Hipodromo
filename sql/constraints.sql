@@ -119,14 +119,14 @@ alter table PESO add constraint FK_caej_peso foreign key (FK_CAEJ) references CA
 /*Checks*/
 alter table HORA add constraint CH_hora_dia check (HORA_dia IN ('viernes','sabado','domingo'));
 alter table AREA add constraint CH_area_tipo check (AREA_tipo IN ('paddock','circulo de ganadores','grada central','tribuna','estacionamiento','butaca','playa','pasillo','palco'));
-alter table CARRERA add constraint CH_carr_categoria check (CARR_categoria IN ('clasico','normal','copa'));
+alter table CARRERA add constraint CH_carr_tipo check (CARR_tipo IN ('clasico','normal','copa'));
 alter table LUGAR add constraint CH_luga_tipo check (LUGA_tipo IN ('pais','estado','municipio','parroquia'));
 alter table ARTA add constraint CH_arta_puerta check (ARTA_puerta IN ('A','B','C','D','E','F'));
 alter table PISO add constraint CH_piso_tipo check (PISO_tipo IN ('nivel 1','nivel 2','mezzanina'));
 alter table CAEJ add constraint CH_caej_psto_partida check (CAEJ_puesto_partida IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16));
 alter table INVITADO add constraint CH_invi_tipo check (INVI_tipo IN ('artista','deportista','opinion'));
 alter table TAQUILLA add constraint CH_taqu_tipo check (TAQU_tipo IN ('apuesta','boleto'));
-alter table IMPLEMENTO add constraint CH_impl_tipo check (IMPL_tipo IN ('CC','CH'));
+alter table IMPLEMENTO add constraint CH_impl_tipo check (IMPL_tipo IN ('CC','CH','LA','BZ','BL','BB','M','P','G','V','O.T.','GRI'));
 alter table ROL add constraint CH_rol_permiso check (ROL_permiso IN ('B', 'L', 'E', 'M', 'BL', 'BE', 'BM', 'LE', 'LM', 'EM', 'BLE', 'BLM', 'BEM', 'LEM', 'BLEM'));
 alter table PESO add constraint CH_peso_tipo check (PESO_tipo IN ('ejemplar', 'jinete'));
 alter table ejemplar add constraint CH_ejem_sexo check (ejem_sexo IN ('macho','hembra'));
