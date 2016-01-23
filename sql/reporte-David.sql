@@ -33,6 +33,11 @@ order by caej_posicion;
 /*Construcción de la gaceta hípica indicando los favoritos en cada carrera según su historial, además de las estadísticas de combinación ejemplar – jinete – entrenador.Restaurantes del hipódromo.*/
 
 /*Indicar el peso promedio de los jinetes para las 25 últimas carreras.*/
+select to_char(avg(p.peso_peso),'999999.99') peso, j.jine_nombre ||' '|| j.jine_apellido jinete, carr_nombre Carrera
+from peso p, jinete j, caej ca, carrera c
+where p.fk_caej=caej_codigo and ca.fk_jine=jine_codigo and p.peso_tipo='jinete' and ca.fk_carr=carr_codigo /*and ROWNUM <= 50*/
+group by j.jine_nombre ||' '|| j.jine_apellido, carr_nombre
+order by jinete;
 
 /*Se quiere conocer cuales son los mejores ejemplares rematadores de todas las carreras según su desempeño en los últimos 400 mts de cada carrera.*/
 
