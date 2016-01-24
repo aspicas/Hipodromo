@@ -18,7 +18,7 @@ order by JINE_nombre;
 
 
 /*PROMEDIO DEL USO DE LOS IMPLEMENTOS EN LAS ULTIMAS 25 CARRERAS*/
-select carr_codigo,IMPL_tipo, carr_nombre, avg(I.fk_impl)
+select carr_codigo,IMPL_tipo implemento, carr_nombre carrera, avg(I.fk_impl) promedio
 from IMPLEMENTO IM, IMCA I, CAEJ CJ, CARRERA C
 where IM.IMPL_codigo=I.FK_IMPL and I.FK_CAEJ=CJ.CAEJ_codigo and CJ.FK_CARR=C.CARR_codigo and impl_tipo is not null
 group by impl_tipo, carr_nombre, carr_codigo
