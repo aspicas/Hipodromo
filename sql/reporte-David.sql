@@ -1,7 +1,8 @@
 /*Estadísticas de Ejemplar en la cantidad de carrera corridas*/
 select E.ejem_nombre Ejemplar,
+(select count(fk_ejem) from caej where fk_ejem=E.ejem_codigo) as CARRERAS,
 (select count(caej_posicion) from caej where fk_ejem=E.ejem_codigo and caej_posicion between 1 and 3) as GANADAS,
-(select count(caej_posicion) from caej where fk_ejem=E.ejem_codigo and caej_posicion > 3) as PERDIDAS
+(select count(caej_posicion) from caej where fk_ejem=E.ejem_codigo and caej_posicion > 3) as PERDIDAS/**/
 from ejemplar E
 order by ejem_nombre;
 
@@ -38,7 +39,7 @@ group by j.jine_nombre ||' '|| j.jine_apellido
 order by jinete;
 
 /*Se quiere conocer cuales son los mejores ejemplares rematadores de todas las carreras según su desempeño en los últimos 400 mts de cada carrera.*/
-select carr_nombre, e.ejem_nombre
+select carr_nombre carrera, e.ejem_nombre ejemplar
 from caej ca, carrera c, ejtr er, traqueo, ejemplar e
 where ca.fk_carr=carr_codigo and er.fk_caej=caej_codigo and er.fk_traq=traq_codigo and traq_rematador = 'true' and ca.fk_ejem=e.ejem_codigo and ejtr_distancia = 400
 group by e.ejem_nombre,carr_nombre;
