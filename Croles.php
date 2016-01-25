@@ -68,15 +68,7 @@
     </tr>
     <tr class="active">
       <td>6</td>
-      <td>Column content</td>
-      <td><select name="codigo" required>
-						
-						
-			</select></td>
-    </tr>
-    <tr class="active">
-      <td>7</td>
-      <td>Column content</td>
+      <td>Invitado</td>
       <td><select name="codigo" required>
 						
 						
