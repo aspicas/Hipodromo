@@ -15,17 +15,7 @@ session_start();
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hipodromo <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">Pista</a></li>
-					<li><a href="#">Paddock</a></li>
-					<li><a href="#">Restaurantes</a></li>
-					<li><a href="#">Historia</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Gaceta</a></li>
-			<li><a href="#">Taquilla</a></li>
+			<li class="dropdown">				
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Carrera <span class="caret"></span></a>
 			  <ul class="dropdown-menu" role="menu">
@@ -93,6 +83,9 @@ session_start();
 					<li><a href="UPropietario.php">Modificar</a></li>
 				    <li><a href="Dpropietario.php">Eliminar</a></li>
 			  	</ul>
+			</li>
+			<li class="dropdown">
+				<a href="Croles.php">Roles</a>
 			</li>
 		</ul>
 
