@@ -15,7 +15,7 @@
 	
 	<?php include "navbar.php" ?>
 
-<div class="container">	
+<div class="container space">	
 
 	<table class="table table-striped table-hover ">
   <thead>
