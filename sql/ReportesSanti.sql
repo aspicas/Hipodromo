@@ -1,3 +1,14 @@
+select E.EJEM_nombre, C.CARR_nombre
+from CARRERA C, CAEJ CJ, EJEMPLAR E 
+where E.EJEM_codigo=CJ.CK_EJEM and
+CJ.FK_CARR=C.CARR_codigo and
+CJ.CAEJ_favorito='true';
+
+
+
+
+
+
 /*LISTO-TOTAL DE VENTAS EN ENTRADAS AL RECINTO*/
 select SUM(A.arta_precio)
 from TAQUILLA T, arta A
